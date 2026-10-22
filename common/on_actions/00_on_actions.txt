@@ -30373,7 +30373,7 @@ on_slacken_start = {
         limit = {
 			OR = {
 				has_country_modifier = no_slacken_mod
-				has_country_modifier = spirit_military
+				#has_country_modifier = spirit_military #BomjsBagetom Anbennar Submod
 			}
         }
         add_army_professionalism = 0.01

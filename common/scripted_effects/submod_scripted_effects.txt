@@ -1,3 +1,13 @@
 set_upgraded_this_project = {
      set_global_flag =  upgraded_$projectname$_$tier$
 }
+delete_all_mercenary_companies = {
+while = { 
+		limit = {
+			num_of_mercenaries = 1
+		}
+		random_hired_mercenary_company ={
+			disband_mercenary_company = THIS
+		}
+	} 
+}

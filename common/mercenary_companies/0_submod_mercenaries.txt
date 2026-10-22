@@ -5,6 +5,8 @@ age1_GreatOrding_bonus_merc = {
     home_province = 75
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = ab_age1_GreatOrding_bonus_flag
 	}
 	cost_modifier = 0.5
@@ -20,6 +22,8 @@ age1_Venail_bonus_merc1 = {
 	artillery_weight = 0.2
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = ab_age1_Venail_bonus_flag
 		current_age = age_of_discovery
 	}
@@ -36,6 +40,8 @@ age1_Venail_bonus_merc2 = {
 	artillery_weight = 0.4
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = ab_age1_Venail_bonus_flag
 		current_age = age_of_discovery
 	}

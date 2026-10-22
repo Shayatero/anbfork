@@ -11,6 +11,8 @@ merc_fieldstalker_sellclaws = {
 	cavalry_cap = 2
 	sprites = { gnoll_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 	}
@@ -30,6 +32,8 @@ merc_kvangas_crows = {
 	cavalry_cap = 4
 	sprites = { gnoll_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 	}
@@ -48,6 +52,8 @@ merc_sandwalker_pack = {
 	artillery_weight = 0
 	sprites = { gnoll_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 	}
@@ -70,7 +76,9 @@ merc_shrine_guard = {
 	cavalry_cap = 4
 	artillery_weight = 0.33
 	sprites = { vyzemby_units_pack } 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		OR = {
 			has_reform = shrine_guardians_reform
 			has_country_flag = L68_no_naga
@@ -92,6 +100,8 @@ merc_drongrays_privateers = {
     home_province = 6632
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -121,6 +131,8 @@ merc_roaming_moraingy_masters = {
 	home_province = 6610
 	sprites = { vyzemby_units_pack } 
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		current_age = age_of_discovery
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
@@ -148,6 +160,8 @@ merc_moving_mountains = {
 	home_province = 6617
 	sprites = { vyzemby_units_pack } 
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { current_age = age_of_discovery }
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
@@ -179,6 +193,8 @@ merc_wardens_of_the_weak = {
 	home_province = 6615
 	sprites = { vyzemby_units_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -210,6 +226,8 @@ merc_island_hoppers = {
     home_province = 5834
 	sprites = { vyzemby_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		OR = {
@@ -243,6 +261,8 @@ merc_natha_raz_zanzarah = {
 	home_province = 5984 #Ishyaga
     sprites = { africangfx_sprite_pack } #placeholder
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
 			culture_group = lizardfolk
@@ -280,6 +300,8 @@ merc_baraktatas = {
 	home_province = 5921 #Zerat
 	sprites = { africangfx_sprite_pack } #placeholder
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
 			culture_group = lizardfolk
@@ -316,6 +338,8 @@ merc_leopard_warband = {
 	cavalry_cap = 0
 	sprites = { tanizu_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
 			culture_group = lizardfolk
@@ -344,6 +368,8 @@ merc_thunder_runners = {
     home_province = 5626
 	sprites = { tanizu_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		is_year = 1650
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
@@ -383,6 +409,8 @@ merc_lodge_of_the_brave = {
     home_province = 5634
 	sprites = { tanizu_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
 			culture_group = lizardfolk
@@ -430,6 +458,8 @@ merc_beastclaw_swordmasters = {
 	cavalry_cap = 2
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -453,6 +483,8 @@ merc_dakinshi_bandits = {
 	cavalry_cap = 0
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -475,6 +507,8 @@ merc_rhino_riders = { #rhino cav
 	cavalry_weight = 1
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -506,6 +540,8 @@ merc_blood_spurs = { # Huugeta's mercs
 	max_size = 50
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -535,6 +571,8 @@ merc_shadowmarked_deathsworn = {
 	cavalry_cap = 2
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -559,6 +597,8 @@ merc_death_trumpets = {
     home_province = 5591
 	sprites = { mengi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -589,6 +629,8 @@ merc_lion_warriors = {
 	cavalry_cap = 2
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -612,6 +654,8 @@ merc_skybows = {
 	cavalry_cap = 2
 	sprites = { africangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { is_year = 1650 }
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
@@ -650,6 +694,8 @@ merc_aakhetan_dragonguard = {
 	home_province = 467
 	sprites = { kheteratan_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -682,6 +728,8 @@ merc_deshak_warriors = {
 	home_province = 382
 	sprites = { akasi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -712,6 +760,8 @@ merc_daughters_of_akasik = {
 	home_province = 402
 	sprites = { akasi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -753,6 +803,8 @@ merc_mattabo_hound_hunters = {
 	home_province = 5489
 	sprites = { kheteratan_units_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -784,6 +836,8 @@ merc_aramoole_exiles = {
 	home_province = 5484
 	sprites = { kheteratan_units_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -815,6 +869,8 @@ merc_daughters_of_nirakhet = {
 	home_province = 6125
 	sprites = { harpy_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { culture_group = gnollish }
@@ -850,6 +906,8 @@ merc_gorrost_gatecrashers = {
 	home_province = 486
 	sprites = { gnoll_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		OR = {
@@ -881,6 +939,8 @@ merc_crimson_camel_company = {
 	sprites = { kheteratan_units_pack }
 	cavalry_weight = 1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { current_age = age_of_discovery }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -910,6 +970,8 @@ merc_sunsail_mariners = {
 	sprites = { vurebindu_units_pack }
 	artillery_weight = 0.2
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -936,6 +998,8 @@ merc_irsukubu_reclaimers = {
 	sprites = { irsukuba_units_pack }
 	artillery_weight = 0.2
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -960,6 +1024,8 @@ merc_marksmen_of_mutabb = {
 	sprites = { irsukuba_units_pack }
 	artillery_weight = 0.2
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -987,6 +1053,8 @@ merc_quagga_artillery = {
 	sprites = { kheteratan_units_pack }
 	artillery_weight = 1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { current_age = age_of_discovery }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1020,6 +1088,8 @@ merc_sons_of_sinjetaso = {
 	sprites = { binwarji_units_pack }
 	artillery_weight = 0.1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -1048,6 +1118,8 @@ merc_forsaken_atoners = {
 	sprites = { binwarji_units_pack }
 	artillery_weight = 0.1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -1081,6 +1153,8 @@ merc_asanbosam_slayers = {
 	home_province = 5770
 	sprites = { binwarji_units_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
@@ -1107,6 +1181,8 @@ merc_bosmoli_berserkers = {
 	sprites = { ndurubu_units_pack }
 	cavalry_weight = 1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_country_modifier = monstrous_nation }
