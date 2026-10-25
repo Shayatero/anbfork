@@ -761,6 +761,13 @@ country_decisions = {
 					superregion = south_salahad_superregion
 				}
 			}
+			OR = { #BomjsBagetom Anbennar Submod
+				culture_group = west_sarhaly
+				culture_group = irsukuba
+				culture_group = vurebindu
+				culture_group = mengi
+				culture_group = inyaswarosa
+			} #BomjsBagetom Anbennar Submod
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = umbral_covenant_formed }
 			NOT = { has_country_flag = we_dont_want_no_stinkin_vile_one }

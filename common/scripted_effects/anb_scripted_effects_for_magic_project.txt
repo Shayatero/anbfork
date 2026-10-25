@@ -349,6 +349,14 @@ aotd_get_stage_1_effects = {
 	custom_tooltip = GetRacialMilUndead
 	add_country_modifier = { name = undead_military duration = -1 hidden = yes }
 	custom_tooltip = undead_military_hint
+	hidden_effect = { #BomjsBagetom Anbennar Submod
+		every_owned_province = {
+			kill_units = {
+				who = owner
+				type = rajput
+			}
+		}
+	} #BomjsBagetom Anbennar Submod
 
 	update_mana_regen_vars = yes
 }

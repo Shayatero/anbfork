@@ -1199,6 +1199,7 @@ undead_military = {
 	fire_damage = -0.3					#BomjSBagetom Anbennar Submod
 	
 	#Flavor
+	allowed_rajput_fraction = -1 #BomjsBagetom Anbennar Submod
 	mercenary_manpower = -0.5
 	mages_mana_regen_mult = -0.1
 
