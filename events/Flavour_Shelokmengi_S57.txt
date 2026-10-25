@@ -43,7 +43,7 @@ country_event = {
 	option = {
 		name = flavor_shelokmengi.2.a
 		#5555 = { #Berfan #BomjsBagetom Anbennar Submod
-		capital = { #BomjsBagetom Anbennar Submod
+		capital_scope = { #BomjsBagetom Anbennar Submod
 			spawn_rebels = {
 				type = noble_rebels
 				size = 1
@@ -193,7 +193,7 @@ country_event = { #the great harvest
 			add_permanent_claim = ROOT
 		}
 		#5555 = { #Berfan #BomjsBagetom Anbennar Submod
-		capital = {	#BomjsBagetom Anbennar Submod
+		capital_scope = {	#BomjsBagetom Anbennar Submod
 			spawn_rebels = {
 				type = noble_rebels
 				size = 1

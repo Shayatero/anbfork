@@ -430,7 +430,7 @@ shelokmengi_missions_3 = {
 
 		trigger = { 
 			#5555 = { #Berfan #BomjsBagetom Anbennar Submod
-			capital = { #BomjsBagetom Anbennar Submod
+			capital_scope = { #BomjsBagetom Anbennar Submod
 				current_institution = 50
 				OR = { 
 					num_of_times_expanded_infrastructure = 1
@@ -457,7 +457,7 @@ shelokmengi_missions_3 = {
 	
 		effect = { 
 			#5555 = { #Berfan #BomjsBagetom Anbennar Submod
-			capital = { #BomjsBagetom Anbennar Submod
+			capital_scope = { #BomjsBagetom Anbennar Submod
 				add_institution_embracement = {
 					which = renaissance
 					value = 50
