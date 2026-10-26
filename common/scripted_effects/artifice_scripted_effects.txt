@@ -5683,6 +5683,7 @@ artifice_magic_switch_to_artificery_only_mode = {
 				limit = { has_country_modifier = undead_military }
 				disband_all_regiments = yes
 				remove_country_modifier = undead_military
+				remove_country_modifier = undead_military_artificer_debuff #BomjsBagetom Anbennar Submod
 				undead_mil_remove_special_mods = yes
 			}
 			remove_country_modifier = homunculus_study

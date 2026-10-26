@@ -287,6 +287,7 @@ clear_racial_military = {
 		limit = { has_country_modifier = undead_military }
 		disband_all_regiments = yes
 		remove_country_modifier = undead_military
+		remove_country_modifier = undead_military_artificer_debuff #BomjsBagetom Anbennar Submod
 		undead_mil_remove_special_mods = yes
 	}
 

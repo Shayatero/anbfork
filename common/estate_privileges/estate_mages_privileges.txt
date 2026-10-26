@@ -2230,17 +2230,17 @@ estate_mages_monopoly_of_damestear = {
 		}
 		custom_tooltip = estate_mages_monopoly_of_damestear_effect_tooltip
 
-		hidden_effect = {
-			export_to_variable = { which = changed_treasury value = treasury }
-			subtract_variable = { which = changed_treasury which = orig_treasury }
-			if = {
-				limit = { check_variable = { changed_treasury = 100 } }
-				set_variable = { changed_treasury = 100 }
-			}
-			
-			change_mana = { var_amount = changed_treasury }
-			var_effect = { var = changed_treasury effect = add_treasury sign = - }
-		}
+		#hidden_effect = { #BomjsBagetom Anbennar Submod
+		#	export_to_variable = { which = changed_treasury value = treasury }
+		#	subtract_variable = { which = changed_treasury which = orig_treasury }
+		#	if = {
+		#		limit = { check_variable = { changed_treasury = 100 } }
+		#		set_variable = { changed_treasury = 100 }
+		#	}
+		#	
+		#	change_mana = { var_amount = changed_treasury }
+		#	var_effect = { var = changed_treasury effect = add_treasury sign = - }
+		#} #BomjsBagetom Anbennar Submod
 	}
 	on_granted_province = {
 		if = {
@@ -2276,7 +2276,8 @@ estate_mages_monopoly_of_damestear = {
 	penalties = {
 	}
 	benefits = {
-		mages_mana_regen = 0.1
+		#mages_mana_regen = 0.1 #BomjsBagetom Anbennar Submod
+		mages_mana_regen = 0.2 #BomjsBagetom Anbennar Submod
 	}
 	cooldown_years = 10
 	on_cooldown_expires = {
@@ -2328,17 +2329,17 @@ estate_mages_monopoly_of_relics = {
 		}
 		custom_tooltip = estate_mages_monopoly_of_relics_effect_tooltip
 
-		hidden_effect = {
-			export_to_variable = { which = changed_treasury value = treasury }
-			subtract_variable = { which = changed_treasury which = orig_treasury }
-			if = {
-				limit = { check_variable = { changed_treasury = 150 } }
-				set_variable = { changed_treasury = 150 }
-			}
-
-			increase_magic_experience = { unmodified_var_amount = changed_treasury }
-			var_effect = { var = changed_treasury effect = add_treasury sign = - }
-		}
+		#hidden_effect = { #BomjsBagetom Anbennar Submod
+		#	export_to_variable = { which = changed_treasury value = treasury }
+		#	subtract_variable = { which = changed_treasury which = orig_treasury }
+		#	if = {
+		#		limit = { check_variable = { changed_treasury = 150 } }
+		#		set_variable = { changed_treasury = 150 }
+		#	}
+		#
+		#	increase_magic_experience = { unmodified_var_amount = changed_treasury }
+		#	var_effect = { var = changed_treasury effect = add_treasury sign = - }
+		#} #BomjsBagetom Anbennar Submod
 	}
 	on_granted_province = {
 		if = {
@@ -2374,8 +2375,10 @@ estate_mages_monopoly_of_relics = {
 	penalties = {
 	}
 	benefits = {
-		mages_ruler_experience_mod = 0.1
-		mages_estate_experience_mod = 0.1
+		#mages_ruler_experience_mod = 0.1 #BomjsBagetom Anbennar Submod
+		#mages_estate_experience_mod = 0.1 #BomjsBagetom Anbennar Submod
+		mages_ruler_experience_mod = 0.2 #BomjsBagetom Anbennar Submod
+		mages_estate_experience_mod = 0.2 #BomjsBagetom Anbennar Submod
 	}
 	cooldown_years = 10
 	on_cooldown_expires = {

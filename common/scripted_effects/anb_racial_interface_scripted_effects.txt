@@ -1211,6 +1211,10 @@ racial_mil_selected_military_is_current_tt = {
 		limit = { has_country_modifier = lizardfolk_military }
 		tooltip = { add_country_modifier = { name = lizardfolk_military_marines_buff duration = -1 } }
 	}
+	if = {	#BomjSBagetom Anbennar Submod
+		limit = { has_country_modifier = undead_military }
+		tooltip = { add_country_modifier = { name = undead_military_artificer_debuff duration = -1 } }
+	}
 }
 
 #Interacts with old scripted effects, use RACE
@@ -1275,6 +1279,9 @@ racial_mil_cannot_change_to_selected_race_military = {
 	[[LIZARDFOLK_MARINES]	#BomjSBagetom Anbennar Submod
 		tooltip = { add_country_modifier = { name = lizardfolk_military_marines_buff duration = -1 } }
 	]
+	[[UNDEAD_ARTIFICER]		#BomjSBagetom Anbennar Submod
+		tooltip = { add_coutry_modifier = { name = undead_military_artificer_debuff duration = -1 } }
+	]
 	[[UNDEAD_SPECIALIZATION]
 		tooltip = {
 			if = {
@@ -1312,6 +1319,10 @@ racial_mil_change_military_effect = {
 		add_country_modifier = { name = lizardfolk_military_marines_buff duration = -1 hidden = yes }
 	}
 
+	if = {
+		limit = { has_country_modifier = undead_military }
+		add_country_modifier = { name = undead_military_artificer_debuff duration = -1 hidden = yes }
+	}
 	[[NO_DLC_HOBGOBLIN]
 		add_country_modifier = { name = hobgoblin_military_no_dlc duration = -1 }
 	]
@@ -1325,6 +1336,10 @@ racial_mil_change_military_effect = {
 	[[LIZARDFOLK_MARINES]	#BomjSBagetom Anbennar Submod
 		tooltip = { add_country_modifier = { name = lizardfolk_military_marines_buff duration = -1 } }
 		add_country_modifier = { name = lizardfolk_military_marines_buff duration = -1 hidden = yes }
+	]
+	[[UNDEAD_ARTIFICER]
+		tooltip = { add_country_modifier = { name = undead_military_artificer_debuff duration = -1 } }
+		add_country_modifier = { name = undead_military_artificer_debuff duration = -1 hidden = yes }
 	]
 	[[UNDEAD_SPECIALIZATION]
 		if = {

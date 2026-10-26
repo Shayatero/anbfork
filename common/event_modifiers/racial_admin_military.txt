@@ -1116,6 +1116,17 @@ lizardfolk_military_marines_buff = {			#BomjSBagetom Anbennar Submod
 
 }
 
+umdead_military_artificer_debuff = { 		#BomjSBagetom Anbennar Submod
+	#Rajput only modifiers need to be their own modifiers and this is crucial for the racial mil to work so they also get this
+	
+	#Negatives
+	discipline = -1
+
+	is_rajput_modifier = yes
+
+	picture = "racial_mil_undead"
+}
+
 mechanim_administration = {
 	#Gameplay: TBD
 
