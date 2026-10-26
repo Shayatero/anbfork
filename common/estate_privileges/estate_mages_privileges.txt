@@ -2277,7 +2277,7 @@ estate_mages_monopoly_of_damestear = {
 	}
 	benefits = {
 		#mages_mana_regen = 0.1 #BomjsBagetom Anbennar Submod
-		mages_mana_regen = 0.2 #BomjsBagetom Anbennar Submod
+		mages_mana_regen = 0.3 #BomjsBagetom Anbennar Submod
 	}
 	cooldown_years = 10
 	on_cooldown_expires = {
