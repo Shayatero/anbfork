@@ -1,5 +1,301 @@
 country_decisions = {
 
+		submod_important_advisor_events = { #Imported and adapted from https://steamcommunity.com/sharedfiles/filedetails/?id=3165720054
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = submod_important_advisors_tt
+				always = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_army_reformer_tt
+				OR = {
+					NOT = { has_country_flag = army_reformer }
+					if = {	#BomjSBagetom Anbennar Submod
+						limit = {
+							administrative_ideas = 7
+						}
+						had_country_flag = {
+							flag = army_reformer
+							days = 18250
+						}
+					}
+					else = {
+						had_country_flag = {
+							flag = army_reformer
+							days = 36500
+						}
+					}	
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_radical_reforms_tt
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_captain_tt
+				OR = {
+					NOT = { has_country_flag = grand_captain }
+					if = {	#BomjSBagetom Anbennar Submod
+						limit = {
+							administrative_ideas = 7
+						}
+						had_country_flag = {
+							flag = grand_captain
+							days = 18250
+						}
+					}
+					else = {
+						had_country_flag = {
+							flag = grand_captain
+							days = 36500
+						}
+					}	
+				}
+				
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_commandant_tt
+				OR = {
+					NOT = { has_country_flag = commandant }
+					if = {	#BomjSBagetom Anbennar Submod
+						limit = {
+							administrative_ideas = 7
+						}
+						had_country_flag = {
+							flag = commandant
+							days = 18250
+						}
+					}
+					else = {
+						had_country_flag = {
+							flag = commandant
+							days = 36500
+						}
+					}	
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_philosopher_tt
+				OR = {
+					NOT = { has_country_flag = philosopher }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = philosopher days = 18250 }
+					}
+					else = { had_country_flag = { flag = philosopher days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_natural_scientist_tt
+				OR = {
+					NOT = { has_country_flag = natural_scientist }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = natural_scientist days = 18250 }
+					}
+					else = { had_country_flag = { flag = natural_scientist days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_naval_reformer_tt
+				OR = {
+					NOT = { has_country_flag = naval_reformer }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = naval_reformer days = 18250 }
+					}
+					else = { had_country_flag = { flag = naval_reformer days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_artist_tt
+				OR = {
+					NOT = { has_country_flag = artist }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = artist days = 18250 }
+					}
+					else = { had_country_flag = { flag = artist days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_treasurer_tt
+				OR = {
+					NOT = { has_country_flag = treasurer }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = treasurer days = 18250 }
+					}
+					else = { had_country_flag = { flag = treasurer days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_theologian_tt
+				OR = {
+					NOT = { has_country_flag = theologian }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = theologian days = 18250 }
+					}
+					else = { had_country_flag = { flag = theologian days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_statesman_tt
+				OR = {
+					NOT = { has_country_flag = statesman }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = statesman days = 18250 }
+					}
+					else = { had_country_flag = { flag = statesman days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_colonial_governor_tt
+				OR = {
+					NOT = { has_country_flag = colonial_governor }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = colonial_governor days = 18250 }
+					}
+					else = { had_country_flag = { flag = colonial_governor days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_spymaster_tt
+				OR = {
+					NOT = { has_country_flag = spymaster }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = spymaster days = 18250 }
+					}
+					else = { had_country_flag = { flag = spymaster days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_diplomat_tt
+				OR = {
+					NOT = { has_country_flag = diplomat }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = diplomat days = 18250 }
+					}
+					else = { had_country_flag = { flag = diplomat days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_trader_tt
+				OR = {
+					NOT = { has_country_flag = trader }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = trader days = 18250 }
+					}
+					else = { had_country_flag = { flag = trader days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_master_of_mint_tt
+				OR = {
+					NOT = { has_country_flag = master_of_mint }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = master_of_mint days = 18250 }
+					}
+					else = { had_country_flag = { flag = master_of_mint days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_navigator_tt
+				OR = {
+					NOT = { has_country_flag = navigator }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = navigator days = 18250 }
+					}
+					else = { had_country_flag = { flag = navigator days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_army_organiser_tt
+				OR = {
+					NOT = { has_country_flag = army_organiser }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = army_organiser days = 18250 }
+					}
+					else = { had_country_flag = { flag = army_organiser days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_quartermaster_tt
+				OR = {
+					NOT = { has_country_flag = quartermaster }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = quartermaster days = 18250 }
+					}
+					else = { had_country_flag = { flag = quartermaster days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_recruitmaster_tt
+				OR = {
+					NOT = { has_country_flag = recruitmaster }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = recruitmaster days = 18250 }
+					}
+					else = { had_country_flag = { flag = recruitmaster days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_fortification_expert_tt
+				OR = {
+					NOT = { has_country_flag = fortification_expert }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = fortification_expert days = 18250 }
+					}
+					else = { had_country_flag = { flag = fortification_expert days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_inquisitor_tt
+				OR = {
+					NOT = { has_country_flag = inquisitor }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = inquisitor days = 18250 }
+					}
+					else = { had_country_flag = { flag = inquisitor days = 36500 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = submod_court_mage_tt
+				OR = {
+					NOT = { has_country_flag = court_mage }
+					if = {
+						limit = { administrative_ideas = 7 }
+						had_country_flag = { flag = court_mage days = 18250 }
+					}
+					else = { had_country_flag = { flag = court_mage days = 36500 } }
+				}
+			}
+
+		}
+		effect = {
+		}
+	}
+
 	disable_colonials = {
 
 		color = { 128 0 128 }

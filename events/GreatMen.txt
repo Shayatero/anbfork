@@ -49,6 +49,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = philosopher_100 value = 100 }
+			set_variable = { which = philosopher_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4021"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -135,6 +143,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = natural_scientist_100 value = 100 }
+			set_variable = { which = natural_scientist_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4022"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -253,7 +269,24 @@ country_event = {
 			NOT = { innovativeness_ideas = 2 }
 		}
 	}
-	
+
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = {
+				which = army_reformer_100
+				value = 100
+			}
+			set_variable = {
+				which = army_reformer_50
+				value = 50
+			}
+			country_event = {
+				id = submod_custom_events.5
+				days = 1
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4023"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -372,6 +405,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = naval_reformer_100 value = 100 }
+			set_variable = { which = naval_reformer_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -492,6 +533,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = artist_100 value = 100 }
+			set_variable = { which = artist_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4025"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -612,6 +661,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = treasurer_100 value = 100 }
+			set_variable = { which = treasurer_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4026"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -732,6 +789,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = theologian_100 value = 100 }
+			set_variable = { which = theologian_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4027"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -852,6 +917,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = statesman_100 value = 100 }
+			set_variable = { which = statesman_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4028"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -972,6 +1045,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = colonial_governor_100 value = 100 }
+			set_variable = { which = colonial_governor_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4029"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1091,6 +1172,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = spymaster_100 value = 100 }
+			set_variable = { which = spymaster_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4030"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1210,6 +1299,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = diplomat_100 value = 100 }
+			set_variable = { which = diplomat_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4031"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1331,6 +1428,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = trader_100 value = 100 }
+			set_variable = { which = trader_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4032"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1452,6 +1557,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = master_of_mint_100 value = 100 }
+			set_variable = { which = master_of_mint_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4104"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1573,6 +1686,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = navigator_100 value = 100 }
+			set_variable = { which = navigator_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4110"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1692,6 +1813,23 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = {
+				which = grand_captain_100
+				value = 100
+			}
+			set_variable = {
+				which = grand_captain_50
+				value = 50
+			}
+			country_event = {
+				id = submod_custom_events.5
+				days = 1
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1811,6 +1949,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = army_organiser_100 value = 100 }
+			set_variable = { which = army_organiser_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4115"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1930,7 +2076,24 @@ country_event = {
 			NOT = { innovativeness_ideas = 2 }
 		}
 	}
-	
+
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = {
+				which = commandant_50
+				value = 50
+			}
+			set_variable = {
+				which = commandant_100
+				value = 100
+			}
+			country_event = {
+				id = submod_custom_events.5
+				days = 1
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -2050,6 +2213,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = quartermaster_100 value = 100 }
+			set_variable = { which = quartermaster_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -2169,6 +2340,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = recruitmaster_100 value = 100 }
+			set_variable = { which = recruitmaster_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4118"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -2288,6 +2467,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = fortification_expert_100 value = 100 }
+			set_variable = { which = fortification_expert_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4119"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -2408,6 +2595,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = inquisitor_100 value = 100 }
+			set_variable = { which = inquisitor_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4120"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -2529,6 +2724,14 @@ country_event = {
 		}
 	}
 	
+	immediate = { #BomjsBagetom Anbennar Submod
+		hidden_effect = {
+			set_variable = { which = court_mage_100 value = 100 }
+			set_variable = { which = court_mage_50 value = 50 }
+			country_event = { id = submod_custom_events.5 days = 1 }
+		}
+	}
+
 	option = {
 		name = "EVTOPTA4199"	# His efforts will be admired throughout the nation
 		ai_chance = {

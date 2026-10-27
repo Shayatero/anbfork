@@ -403,3 +403,265 @@ country_event = { # death of a ruler
 		}
 	}
 }
+
+country_event = {
+    id = submod_custom_events.5
+    hidden = yes
+    is_triggered_only = yes
+    trigger = {
+        NOT = { has_country_flag = year_initialized }
+		NOT = { ai = yes } 
+    }
+    
+    immediate = {
+        set_country_flag = year_initialized
+		country_event = { id = submod_custom_events.6 days = 1 }
+		
+    }
+	option = {
+		name = submod_custom_events.5.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+    id = submod_custom_events.6
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+		if = {
+			limit =  {
+				check_variable = {
+					which = commandant_50
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = commandant_50
+				value = 1
+			}
+		}
+		if = {
+			limit =  {
+				check_variable = {
+					which = army_reformer_50
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = army_reformer_50
+				value = 1
+			}
+		}
+		if = {
+			limit =  {
+				check_variable = {
+					which = grand_captain_50
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = grand_captain_50
+				value = 1
+			}
+		}
+		if = {
+			limit =  {
+				check_variable = {
+					which = commandant_100
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = commandant_100
+				value = 1
+			}
+		}
+		if = {
+			limit =  {
+				check_variable = {
+					which = army_reformer_100
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = army_reformer_100
+				value = 1
+			}
+		}
+		if = {
+			limit =  {
+				check_variable = {
+					which = grand_captain_100
+					value = 0
+				}
+			}
+			subtract_value = {
+				which = grand_captain_100
+				value = 1
+			}
+		}
+		if = {
+			limit = { check_variable = { which = philosopher_50 value = 0 } }
+			subtract_value = { which = philosopher_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = philosopher_100 value = 0 } }
+			subtract_value = { which = philosopher_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = natural_scientist_50 value = 0 } }
+			subtract_value = { which = natural_scientist_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = natural_scientist_100 value = 0 } }
+			subtract_value = { which = natural_scientist_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = naval_reformer_50 value = 0 } }
+			subtract_value = { which = naval_reformer_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = naval_reformer_100 value = 0 } }
+			subtract_value = { which = naval_reformer_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = artist_50 value = 0 } }
+			subtract_value = { which = artist_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = artist_100 value = 0 } }
+			subtract_value = { which = artist_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = treasurer_50 value = 0 } }
+			subtract_value = { which = treasurer_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = treasurer_100 value = 0 } }
+			subtract_value = { which = treasurer_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = theologian_50 value = 0 } }
+			subtract_value = { which = theologian_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = theologian_100 value = 0 } }
+			subtract_value = { which = theologian_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = statesman_50 value = 0 } }
+			subtract_value = { which = statesman_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = statesman_100 value = 0 } }
+			subtract_value = { which = statesman_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = colonial_governor_50 value = 0 } }
+			subtract_value = { which = colonial_governor_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = colonial_governor_100 value = 0 } }
+			subtract_value = { which = colonial_governor_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = spymaster_50 value = 0 } }
+			subtract_value = { which = spymaster_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = spymaster_100 value = 0 } }
+			subtract_value = { which = spymaster_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = diplomat_50 value = 0 } }
+			subtract_value = { which = diplomat_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = diplomat_100 value = 0 } }
+			subtract_value = { which = diplomat_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = trader_50 value = 0 } }
+			subtract_value = { which = trader_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = trader_100 value = 0 } }
+			subtract_value = { which = trader_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = master_of_mint_50 value = 0 } }
+			subtract_value = { which = master_of_mint_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = master_of_mint_100 value = 0 } }
+			subtract_value = { which = master_of_mint_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = navigator_50 value = 0 } }
+			subtract_value = { which = navigator_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = navigator_100 value = 0 } }
+			subtract_value = { which = navigator_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = army_organiser_50 value = 0 } }
+			subtract_value = { which = army_organiser_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = army_organiser_100 value = 0 } }
+			subtract_value = { which = army_organiser_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = quartermaster_50 value = 0 } }
+			subtract_value = { which = quartermaster_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = quartermaster_100 value = 0 } }
+			subtract_value = { which = quartermaster_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = recruitmaster_50 value = 0 } }
+			subtract_value = { which = recruitmaster_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = recruitmaster_100 value = 0 } }
+			subtract_value = { which = recruitmaster_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = fortification_expert_50 value = 0 } }
+			subtract_value = { which = fortification_expert_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = fortification_expert_100 value = 0 } }
+			subtract_value = { which = fortification_expert_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = inquisitor_50 value = 0 } }
+			subtract_value = { which = inquisitor_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = inquisitor_100 value = 0 } }
+			subtract_value = { which = inquisitor_100 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = court_mage_50 value = 0 } }
+			subtract_value = { which = court_mage_50 value = 1 }
+		}
+		if = {
+			limit = { check_variable = { which = court_mage_100 value = 0 } }
+			subtract_value = { which = court_mage_100 value = 1 }
+		}
+		country_event = { id = submod_custom_events.6 days = 365 }
+	}
+	option = {
+		name = submod_custom_events.6.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+	
