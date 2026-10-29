@@ -177,10 +177,10 @@ artifice_predator_exoskeleton = {
 }
 
 artifice_platinum_warsuit = {
-	#is_rajput_modifier = yes #BomjsBagetom Anbennar Submod
+	is_rajput_modifier = yes
 
-	#regiment_manpower_usage = -0.15 #BomjsBagetom Anbennar Submod
-	discipline = 0.05 #BomjsBagetom Anbennar Submod
+	regiment_manpower_usage = -0.15
+	discipline = 0.05
 }
 
 artifice_dragonscale_plating = {
