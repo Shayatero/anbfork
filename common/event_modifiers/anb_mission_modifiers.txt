@@ -23735,7 +23735,8 @@ tluukt_warred_kogs = {
 	reduced_liberty_desire = -15
 }
 tluukt_decentralized_tribes = {
-	governing_capacity_modifier = -0.33
+	#governing_capacity_modifier = -0.33 #BomjsBagetom Anbennar Submod
+	governing_capacity_modifier = -0.15 #BomjsBagetom Anbennar Submod
 	diplomatic_upkeep = 2
 }
 tluukt_humiliated_bulwar = {

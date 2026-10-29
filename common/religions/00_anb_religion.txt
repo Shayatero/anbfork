@@ -3480,6 +3480,7 @@ gerudian = {
 			infantry_power = 0.10
 		}
 		personal_deity = yes
+		can_have_secondary_religion = yes #BomjsBagetom Anbennar Submod
 
 		province = {
 			local_missionary_strength = -0.02	#its harder to convert them

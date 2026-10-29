@@ -3348,6 +3348,7 @@ Z88_ideas = {
 	}
 	Z88_forges_of_the_skies = { #Forges of the Skies
 		global_regiment_recruit_speed = -0.2 #maintain their own forges across the Titans Rest, most harpies have their own arms and armour made at home, ready to use
+		discipline = 0.05 #BomjsBagetom Anbennar Submod
 	}
 }
 

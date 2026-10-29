@@ -14,6 +14,10 @@ country_decisions = {
 				always = no
 			}
 			custom_trigger_tooltip = {
+				tooltip = submod_radical_reforms_tt
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
 				tooltip = submod_army_reformer_tt
 				OR = {
 					NOT = { has_country_flag = army_reformer }
@@ -33,10 +37,6 @@ country_decisions = {
 						}
 					}	
 				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = submod_radical_reforms_tt
-				NOT = { has_country_flag = radical_mercantilist_reforms }
 			}
 			custom_trigger_tooltip = {
 				tooltip = submod_captain_tt
@@ -828,4 +828,24 @@ country_decisions = {
 		}
 	}
 
+	legacy_of_goblinsbane_decision = {
+		potential = {
+			owns = 4284
+			culture_group = dwarven
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = goblinsbane }
+		}
+		trigger = {
+			owns = 4284
+			culture_group = dwarven
+			NOT = { is_year = 1550 }
+		}
+		effect = {
+			country_event = { id = diggy.50 }
+			set_global_flag = goblinsbane
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }
