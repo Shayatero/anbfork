@@ -36,7 +36,8 @@ country_event = { #Bhuvauri Cyclone Event
 				#limit = { ai = yes } #BomjsBagetom Anbennar Submod
 			remove_country_modifier = bhuvauri_distrustful_populace_7
 			add_country_modifier = {
-				name = bhuvauri_distrustful_populace_7
+				#name = bhuvauri_distrustful_populace_7 #BomjsBagetom Anbennar Submod
+				name = bhuvauri_distrustful_populace_4
 				duration = 18250
 			} 
 			#}
