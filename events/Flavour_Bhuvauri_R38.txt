@@ -32,14 +32,14 @@ country_event = { #Bhuvauri Cyclone Event
 		tooltip = { disband_all_ships = yes }
 		custom_tooltip = bhuvauri_great_ishudhen_cyclone_effect_tt
 		hidden_effect = {
-			if = {
+			#if = { #BomjsBagetom Anbennar Submod
 				#limit = { ai = yes } #BomjsBagetom Anbennar Submod
-				remove_country_modifier = bhuvauri_distrustful_populace_7
-				add_country_modifier = {
-					name = bhuvauri_distrustful_populace_7
-					duration = 18250
-				}
-			}
+			remove_country_modifier = bhuvauri_distrustful_populace_7
+			add_country_modifier = {
+				name = bhuvauri_distrustful_populace_7
+				duration = 18250
+			} 
+			#}
 			4551 = {
 				add_devastation = 100
 				add_permanent_province_modifier = { name = great_ishudhen_cyclone_mod duration = 10950 }
