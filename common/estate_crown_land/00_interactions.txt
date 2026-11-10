@@ -170,16 +170,16 @@ interaction = { # Sale of Titles
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		hidden_trigger = { NOT = { has_country_flag = farranean_estates_harmony } }
 		hidden_trigger = { has_any_estates = yes }
-		if = {
-			limit = { 
-				ai = no
-				has_country_modifier = JY_LF_recent_trade
-			}
-			custom_trigger_tooltip = {
-				tooltip = JY_LF_not_trading
-				NOT = { has_country_modifier = JY_LF_recent_trade }
-			}
-		}
+		#if = { #BomjsBagetom Anbennar Submod
+		#	limit = { 
+		#		ai = no
+		#		has_country_modifier = JY_LF_recent_trade
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = JY_LF_not_trading
+		#		NOT = { has_country_modifier = JY_LF_recent_trade }
+		#	}
+		#}
 		#NOT = { has_country_modifier = sale_of_titles_tax_bonus } #BomjSBagetom Anbennar Submod
 		#NOT = { has_country_modifier = sale_of_titles_production_bonus } #BomjSBagetom Anbennar Submod
 		#NOT = { has_country_modifier = sale_of_titles_trade_bonus } #BomjSBagetom Anbennar Submod
