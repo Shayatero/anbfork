@@ -541,6 +541,7 @@ religious_ideas = {
 
 		# ANBENNAR
 		uppercastes_loyalty_modifier = 0.05 #half because Aristo/Divine/Religious also gives 5%
+		mages_mana_regen = 0.25 #BomjsBagetom Anbennar Submod
 	}
 
 	missionary_schools = {
@@ -550,7 +551,8 @@ religious_ideas = {
 		removed_effect = { on_idea_removed_effect = yes }
 	}
 	church_attendance_duty = { 
-		manpower_in_true_faith_provinces = 0.1 #1.35
+		#manpower_in_true_faith_provinces = 0.1 #1.35
+		manpower_in_true_faith_provinces = 0.15 #BomjsBagetom Anbennar Submod
 		effect = { on_idea_taken_effect = yes }
 		removed_effect = { on_idea_removed_effect = yes }
 	}

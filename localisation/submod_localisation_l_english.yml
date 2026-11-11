@@ -25,7 +25,11 @@
  tearfall_cooldown:0 "The Tear has fallen"
  tearfall_cooldown_desc:0 "Tearfall spell is on a 15 years cooldown!"
  neutral_fairies_festival:0 "Fairies blessing"
-
+ recently_changed_government:0 "Restrcuturizing of Government."
+ recently_changed_government_desc:0 "We have recently changed our government so it's currently restrcturizing!"
+ mithryl_company_cooldown:0 "Honor of the Mithryl company"
+ mithryl_company_cooldown_desc:0 "Mithryll company is busy doing some tasks so we wont get benefits from them for a while."
+ 
  player_age2_debuff:0 "Age of reformation debuff"
  player_age3_debuff:0 "Age of absolutism debuff"
  player_age4_debuff:0 "Age of revolutions debuff"

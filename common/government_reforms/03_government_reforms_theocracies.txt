@@ -3563,12 +3563,17 @@ crown_leader_reform = {
 			limit = { has_reform = U39_kavalali_theo_democracy }
 			NOT = { has_reform = U39_kavalali_theo_democracy }
 		}
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 	effect = {
 		set_country_flag = populists_in_government
 		if = {
 			limit = { NOT = { has_government_attribute = theocratic_monarchy_mechanic } }
 			add_stability = -3
+		}
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
 		}
 		change_government = monarchy
 		# if = {
@@ -3603,11 +3608,16 @@ proclaim_republic_reform = {
 			limit = { has_reform = U39_kavalali_theo_democracy }
 			NOT = { has_reform = U39_kavalali_theo_democracy }
 		}
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 	effect = {
 		set_country_flag = populists_in_government
 		add_stability = -3
 		change_government = republic
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
+		}
 		# if = {
 		# 	limit = {
 		# 		tag = AVE

@@ -947,3 +947,9 @@ neutral_fairies_festival = {
 	global_tax_modifier = 0.1
 	trade_efficiency = 0.1
 }
+recently_changed_government = {
+	governing_capacity_modifier = -0.001
+}
+mithryl_company_cooldown = {
+	prestige = 0.01
+}

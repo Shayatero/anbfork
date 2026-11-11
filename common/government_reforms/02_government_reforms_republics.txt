@@ -6787,6 +6787,7 @@ seize_executive_power_reform = {
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		stability = 2
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 
 	modifiers = {
@@ -6799,6 +6800,10 @@ seize_executive_power_reform = {
 		set_country_flag = populists_in_government
 		add_stability = -3
 		change_government = monarchy
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
+		}
 		# if = {
 		# 	limit = {
 		# 		tag = AVE
@@ -6829,6 +6834,7 @@ proclaim_divine_guidance_reform = {
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		stability = 2
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 	modifiers = {
 	}
@@ -6836,6 +6842,10 @@ proclaim_divine_guidance_reform = {
 		set_country_flag = populists_in_government
 		add_stability = -3
 		change_government = theocracy
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
+		}
 		# if = {
 		# 	limit = {
 		# 		tag = AVE

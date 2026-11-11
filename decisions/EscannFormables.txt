@@ -1856,6 +1856,7 @@ country_decisions = {
 			}
 			if = { #Esthil
 				limit = { tag = B20 ai = no }
+				#adm_tech = 7	#BomjSBagetom Anbennar Submod
 				any_owned_province = {
 					OR = {
 						area = castonath_area
@@ -1886,6 +1887,7 @@ country_decisions = {
 			if = { #Covenblad
 				limit = { tag = B19 ai = no }
 				any_owned_province = {
+					#adm_tech = 7	#BomjSBagetom Anbennar Submod
 					OR = {
 						area = castonath_area
 						area = upper_nath_area

@@ -11621,11 +11621,16 @@ become_a_republic_reform = {
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 		stability = 2
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 	effect = {
 		set_country_flag = populists_in_government
 		add_stability = -3
 		change_government = republic
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
+		}
 		# if = {
 		# 	limit = {
 		# 		tag = AVE
@@ -11657,6 +11662,7 @@ install_theocratic_government_reform = {
 			limit = { NOT = { has_government_attribute = theocratic_monarchy_mechanic } }
 			stability = 2
 		}
+		NOT = { has_country_modifier = { name = recently_changed_government } } #BomjsBagetom Anbennar Submod
 	}
 	effect = {
 		set_country_flag = populists_in_government
@@ -11665,6 +11671,10 @@ install_theocratic_government_reform = {
 			add_stability = -3
 		}
 		change_government = theocracy
+		add_country_modifier = { #BomjsBagetom Anbennar Submod
+			name = recently_changed_government
+			duration = 1825
+		}
 		# if = {
 		# 	limit = {
 		# 		tag = AVE
