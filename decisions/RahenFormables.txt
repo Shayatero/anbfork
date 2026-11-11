@@ -442,7 +442,12 @@ country_decisions = {
 			NOT = { has_country_flag = formed_ghankedhen_flag }
 		}
 		provinces_to_highlight = {
-			culture = ghankedhen
+			#culture = ghankedhen #BomjsBagetom Anbennar Submod
+			OR = {#BomjsBagetom Anbennar Submod
+				area = middle_ghankedhen_area 
+				area = south_ghankedhen_area 
+				area = north_ghankedhen_area 
+			}
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
@@ -453,7 +458,12 @@ country_decisions = {
 			is_at_war = no			
 			num_of_owned_provinces_with = {
 				value = 8
-				culture = ghankedhen
+				#culture = ghankedhen #BomjsBagetom Anbennar Submod
+				OR = { #BomjsBagetom Anbennar Submod
+					area = middle_ghankedhen_area 
+					area = south_ghankedhen_area 
+					area = north_ghankedhen_area 
+				}
 			}
 		}
 		effect = {

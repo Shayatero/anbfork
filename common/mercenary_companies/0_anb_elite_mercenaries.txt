@@ -8,6 +8,8 @@ merc_amldahvad_guard = {
 	cavalry_cap = 0
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_amldahvad_guard }
 	}
 	cost_modifier = 0.8
@@ -25,6 +27,8 @@ merc_domandrod_lightbringers = {
 	cavalry_cap = 2
 	sprites = { sav_base_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = H21 #Eordand
 	}
 	cost_modifier = 1
@@ -42,6 +46,8 @@ merc_iron_company = {
 	cavalry_cap = 4
     artillery_weight = 0.1
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = Z50 #Grombar
 		has_unlocked_merc_company = { merc_company = merc_iron_company }
 	}
@@ -63,6 +69,8 @@ merc_sarisung_city_guard = {
 	cavalry_weight = 0
 	artillery_weight = 0
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_sarisung_city_guard }
 	}
 	cost_modifier = 1.25
@@ -80,6 +88,8 @@ merc_442nd = {
 	cavalry_cap = 0
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_442nd }
 	}
 	cost_modifier = 1
@@ -99,6 +109,8 @@ merc_ogrillons = {
 	home_province = 4123
 	sprites = { black_orc_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			has_country_modifier = ogrillons
 			has_country_modifier = H72_ogrillon_bands
@@ -120,6 +132,8 @@ merc_jaddaresas_chosen = {
 	home_province = 4440
 	sprites = { sun_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -145,6 +159,8 @@ merc_suraelic_guard = {
     artillery_weight = 0.4
 	sprites = { sun_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_suraelic_guard }
@@ -167,6 +183,8 @@ merc_order_of_keepers = {
 	home_province = 4811
 	sprites = { xia_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_ruler_modifier = xia_wielding_kongren
 		NOT = { has_country_modifier = xia_ended_the_keepers }
 		has_unlocked_merc_company = { merc_company = merc_order_of_keepers }
@@ -190,6 +208,8 @@ merc_corvurian_dark_legion = {
     artillery_weight = 0.4
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_corvurian_dark_legion }
 		owns_core_province = 441
 	}
@@ -208,6 +228,8 @@ merc_marrhold_griffon_knight = {
 	home_province = 895 #Griffonsgate
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_griffon_knight }
 		owns_core_province = 895
 	}
@@ -230,6 +252,8 @@ merc_marrhold_steel_griffon = {
 	home_province = 895 #Griffonsgate
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_steel_griffon }
 		owns_core_province = 895
 	}
@@ -253,6 +277,8 @@ merc_marrhold_griffon_survey = {
 	home_province = 871 #Gulenhyl
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_griffon_survey }
 		owns_core_province = 880
 	}
@@ -274,6 +300,8 @@ merc_marrhold_griffon_sky_lancers = {
 	home_province = 895 #Griffonsgate
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_griffon_sky_lancers }
 		owns_core_province = 895
 	}
@@ -295,6 +323,8 @@ merc_marrhold_griffon_grenadiers = {
 	home_province = 871 #Gulenhyl
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_griffon_grenadiers }
 		owns_core_province = 880
 	}
@@ -317,6 +347,8 @@ merc_marrhold_griffon_bombardiers = {
 	home_province = 896 #Marrvale
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_marrhold_griffon_bombardiers }
 		owns_core_province = 896
 	}
@@ -339,6 +371,8 @@ merc_wolves_of_crovis = {
 	home_province = 731 #Rycastle
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		custom_trigger_tooltip = {
 			tooltip = woc_founded
 			has_unlocked_merc_company = { merc_company = merc_wolves_of_crovis }
@@ -364,6 +398,8 @@ merc_serpent_knights = {
 	home_province = 698 #Serpentback
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		custom_trigger_tooltip = {
 			tooltip = sk_empowered
 			has_unlocked_merc_company = { merc_company = merc_serpent_knights }
@@ -387,6 +423,8 @@ merc_aelnar_first_corps = {
     artillery_weight = 0.5
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_aelnar_first_corps }
 	}
 	cost_modifier = 0.33
@@ -406,6 +444,8 @@ merc_aelnar_second_corps = {
     artillery_weight = 0.5
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_aelnar_second_corps }
 	}
 	cost_modifier = 0.33
@@ -425,6 +465,8 @@ merc_aelnar_third_corps = {
     artillery_weight = 0.5
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_aelnar_third_corps }
 	}
 	cost_modifier = 0.33
@@ -446,6 +488,8 @@ merc_aelnar_fourth_corps = {
     artillery_weight = 0.5
 	sprites = { moon_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_aelnar_fourth_corps }
 	}
 	cost_modifier = 0.33
@@ -466,6 +510,8 @@ merc_aelnar_precursor_legions = {
 	artillery_weight = 0
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		hidden_trigger = { ai = no } # necessary as the AI crashes when attempting to disband mercs with cost_modifier of 0
 		has_unlocked_merc_company = { merc_company = merc_aelnar_precursor_legions }
 	}
@@ -488,6 +534,8 @@ merc_seinathil_warsingers = {
 	home_province = 916 # Seinathil
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_seinathil_warsingers }
 		owns_core_province = 916
 	}
@@ -511,6 +559,8 @@ merc_grim_legion = {
 	home_province = 2963 #hul-jorkad
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = I02
 		has_unlocked_merc_company = { merc_company = merc_grim_legion }
 		NOT = { has_country_modifier = krak_grim_legion_busy }
@@ -530,6 +580,8 @@ merc_convocationary_guard = {
 	home_province = 4500
 	sprites = { north_kai_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_convocationary_guard }
 		sarisung_area = { owned_by = ROOT }
 	}
@@ -547,6 +599,8 @@ merc_shuvuush_auxillaries = {
 	sprites = { shuvuush_sprite_pack }
 	cavalry_weight = 0.75
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_shuvuush_auxillaries }
@@ -567,6 +621,8 @@ merc_kenmanshir = {
 	cavalry_weight = 0
 	artillery_weight = 0.4
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_kenmanshir }
@@ -588,6 +644,8 @@ merc_cannorian_veterans = {
 		dameria_sprite_pack
 	}
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_cannorian_veterans }
 		4722 = {
 			owned_by = ROOT
@@ -609,6 +667,8 @@ merc_blue_viziers = {
     cavalry_cap = 0
     cost_modifier = 0.25 #Souls have been eaten by Gorger Lord, act like tormented puppets - need just the basics to keep the body from dying
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_blue_viziers }
 
 	}
@@ -627,6 +687,8 @@ merc_northern_legion = {
 	home_province = 4868
 	sprites = { yan_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_northern_legion }
 		4868 = { owned_by = ROOT }
 	}
@@ -648,6 +710,8 @@ merc_jiantsiang_blazing_claws = {
 	home_province = 4925 #Jiantsiang
 	sprites = { harimari_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_jiantsiang_blazing_claws }
 		owns_core_province = 4925
 	}
@@ -668,6 +732,8 @@ merc_jiantsiang_shuvuush_auxilaries = {
 	home_province = 5415 #Hogunuug
 	sprites = { shuvuush_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_jiantsiang_shuvuush_auxilaries }
 		owns_core_province = 5415
 	}
@@ -689,6 +755,8 @@ merc_dhenijanraj_sramaya_pearlglaives = {
 	home_province = 4420 #Sramaya
 	sprites = { sarniryabsad_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_dhenijanraj_sramaya_pearlglaives }
 		owns_core_province = 4420
 	}
@@ -709,6 +777,8 @@ merc_dhenijanraj_tiger_command = {
 	home_province = 4630 #Sarilavhan
 	sprites = { hobgoblin_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_dhenijanraj_tiger_command }
 		owns_core_province = 4630
 	}
@@ -731,6 +801,8 @@ merc_fjarforska = {
 	home_province = 4182 #Sashakas
 	sprites = { asiangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_fjarforska }
 		owns_core_province = 4182
 	}
@@ -750,6 +822,8 @@ merc_feiten_jellyfish_scouts = {
 	artillery_weight = 1
 	sprites = { asiangfx_sprite_pack } # This is temporary imma try to make some balloon units soon
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = feiten_jellyfish_scouts_unlocked
 		NOT = { ai = yes }
 		has_unlocked_merc_company = { merc_company = merc_feiten_jellyfish_scouts }
@@ -767,6 +841,8 @@ merc_feiten_lightning_jellyfish = {
 	artillery_weight = 1
 	sprites = { asiangfx_sprite_pack } # This is temporary imma try to make some balloon units soon
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = feiten_lightning_shuimu_unlocked NOT = { ai = yes }
 		has_unlocked_merc_company = { merc_company = merc_feiten_lightning_jellyfish }
 	}
@@ -788,6 +864,8 @@ merc_feiten_stasis = {
 	artillery_weight = 1
 	sprites = { asiangfx_sprite_pack } # This is temporary imma try to make some balloon units soon
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = feiten_stasis_experimental_unlocked NOT = { ai = yes }
 		has_unlocked_merc_company = { merc_company = merc_feiten_stasis }
 	}
@@ -809,6 +887,8 @@ merc_feiten_firestorm = {
 	artillery_weight = 1
 	sprites = { asiangfx_sprite_pack } # This is temporary imma try to make some balloon units soon
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = feiten_firestorm_experimental_unlocked NOT = { ai = yes }
 		has_unlocked_merc_company = { merc_company = merc_feiten_firestorm }
 	}
@@ -830,6 +910,8 @@ merc_feiten_sky_factory = {
 	artillery_weight = 1
 	sprites = { asiangfx_sprite_pack } # This is temporary imma try to make some balloon units soon
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = feiten_sky_factory_experimental_unlocked
 		NOT = { ai = yes }
 		has_unlocked_merc_company = { merc_company = merc_feiten_sky_factory }
@@ -853,6 +935,8 @@ veykodan_guard_elite_merc = {
 	home_province = 1139
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = G35_veykodan_mercs_available_flag
 		U21 = {
 			is_subject_of = ROOT
@@ -879,6 +963,8 @@ merc_novice_slayers = {
 	home_province = 4266 #krakazol
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = I20
 		has_unlocked_merc_company = { merc_company = merc_novice_slayers }
 		NOT = { has_unlocked_merc_company = { merc_company = merc_bloodied_slayers } }
@@ -901,6 +987,8 @@ merc_bloodied_slayers = {
 	home_province = 4266 #krakazol
 	sprites = { group_dwarves_sprite_pack}
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = I20
 		has_unlocked_merc_company = { merc_company = merc_bloodied_slayers }
 		NOT = { has_unlocked_merc_company = { merc_company = merc_doomed_slayers } }
@@ -922,6 +1010,8 @@ merc_doomed_slayers = {
 	home_province = 4266 #krakazol
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = I20
 		has_unlocked_merc_company = { merc_company = merc_doomed_slayers }
 	}
@@ -944,6 +1034,8 @@ merc_vault_guard = {
 		cavalry_cap = 0
 		sprites = { cave_goblin_sprite_pack }
     	trigger = {
+    	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		OR = {
 			tag = H82 #Greedy Grin
 			was_tag = H82
@@ -968,6 +1060,8 @@ merc_tluukt_harpy_janissaries = {
 	artillery_weight = 0
 	sprites = { harpy_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_tluukt_harpy_janissaries }
@@ -994,6 +1088,8 @@ merc_tluukt_masnsih_janissaries = {
 	artillery_weight = 0
 	sprites = { muslimgfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_tluukt_masnsih_janissaries }
@@ -1015,6 +1111,8 @@ merc_tluukt_bulwar_janissaries = {
 	artillery_weight = 0
 	sprites = { muslimgfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_tluukt_bulwar_janissaries }
@@ -1038,6 +1136,8 @@ merc_shazstundihr_marbleblood = {
 	home_province = 2942 #shazstundihr
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = I11
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
@@ -1063,6 +1163,8 @@ merc_siadan_stormtalon_guard = {
     home_province = 4411
     sprites = { harpy_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         tag = F48
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1085,6 +1187,8 @@ merc_bianfang_hobgoblin_army = {
 	artillery_weight = 0.41
 	sprites = { hobgoblin_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		is_or_was_tag = { tag = Y09 }
 		has_unlocked_merc_company = { merc_company = merc_bianfang_hobgoblin_army }
 	}
@@ -1109,6 +1213,8 @@ merc_dartax_sebhuliam = {
 	artillery_weight = 0.0
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		NOT = { has_unlocked_merc_company = { merc_company = merc_dartax_mage_sebhuliam } }
@@ -1131,6 +1237,8 @@ merc_dartax_mage_sebhuliam = {
 	artillery_weight = 0.0
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_dartax_mage_sebhuliam }
@@ -1153,6 +1261,8 @@ merc_newshire_peapods = {
 	home_province = 777 #escin/sunvale
 	sprites = { redfoot_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_newshire_peapods }
 	}
 	cost_modifier = 0.5
@@ -1175,6 +1285,8 @@ merc_newshire_wallnuts = {
 	home_province = 777 #escin/sunvale
 	sprites = { redfoot_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_newshire_wallnuts }
 	}
 	cost_modifier = 0.5
@@ -1201,6 +1313,8 @@ merc_newshire_squashkin = {
 	home_province = 777 #escin/sunvale
 	sprites = { redfoot_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_newshire_squashkin }
 	}
 	cost_modifier = 0.5
@@ -1221,6 +1335,8 @@ merc_newshire_sunwatchers = {
 	home_province = 777 #escin/sunvale
 	sprites = { redfoot_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_newshire_sunwatchers }
 	}
 	cost_modifier = 0.5
@@ -1239,6 +1355,8 @@ merc_crimson_executioners = {
 	home_province = 350 #silent repose
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		OR = {
 			tag = B34
 			was_tag = B34
@@ -1261,6 +1379,8 @@ merc_terror_knights = {
 	home_province = 774 #taranton
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			tag = B34
 			was_tag = B34
@@ -1284,6 +1404,8 @@ merc_freemarches_the_gray_guard = {
 	artillery_weight = 0.41
 	home_province = 1193 #Cursed Heart/Free Heart
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_freemarches_the_gray_guard }
 	}
 	cost_modifier = 0.25
@@ -1302,6 +1424,8 @@ merc_amacimst_the_amethyst_order = {
 	cavalry_weight = 1.0
 	home_province = 1172 #Amacimst
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		OR = {
 			tag = G26
 			AND = {
@@ -1336,6 +1460,8 @@ merc_jaherian_exemplars = {
     artillery_weight = 0.4
 	sprites = { sun_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		has_unlocked_merc_company = { merc_company = merc_jaherian_exemplars }
@@ -1360,6 +1486,8 @@ merc_surani_exemplars = {
 	artillery_weight = 0.4
 	sprites = { surani_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
 		OR = {
@@ -1384,7 +1512,9 @@ merc_command_wolf_army = {
 	cavalry_cap = 8
 	artillery_weight = 0.41
 	sprites = { hobgoblin_sprite_pack } 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		ai = no
 		OR = { #BomjSBagetom Anbennar Submod
 			AND = {
@@ -1412,7 +1542,9 @@ merc_command_boar_army = {
 	cavalry_cap = 2
 	artillery_weight = 0.41
 	sprites = { hobgoblin_sprite_pack } 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		ai = no 
 		OR = { #BomjSBagetom Anbennar Submod
 			AND = {
@@ -1439,7 +1571,9 @@ merc_command_lion_army = {
 	cavalry_cap = 4
 	artillery_weight = 0.41
 	sprites = { hobgoblin_sprite_pack }
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		ai = no 
 		OR = { #BomjSBagetom Anbennar Submod
 			AND = {
@@ -1465,7 +1599,9 @@ merc_command_dragon_army = {
 	cavalry_weight = 0
 	artillery_weight = 0.5
 	sprites = { asiangfx_sprite_pack } 
-	trigger = { ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_dragon_command }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_dragon_command }
 	cost_modifier = 0.01
 	modifier = {
 		backrow_artillery_damage = 0.25
@@ -1482,7 +1618,9 @@ merc_command_elephant_army = {
 	cavalry_cap = 6
 	artillery_weight = 0.41
 	sprites = { indiangfx_sprite_pack } 
-	trigger = { ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_elephant_command }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_elephant_command }
 	cost_modifier = 0.01
 	modifier = {
 		#shock_damage_received = -0.2	#BomjSBagetom Anbennar Submod	GREAT RECEIVED WAR
@@ -1499,7 +1637,9 @@ merc_command_tiger_army = {
 	cavalry_cap = 4
 	artillery_weight = 0.33
 	sprites = { harimari_sprite_pack } 
-	trigger = { ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_tiger_command }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 ai = no mission_completed = R62_supply_the_kikunin has_estate = estate_tiger_command }
 	cost_modifier = 0.01
 	modifier = {
 		shock_damage = 0.1
@@ -1518,6 +1658,8 @@ merc_mountainshark_giantsharks = {
 	home_province = 4147
 	sprites = { cave_goblin_sprite_pack } # Change when trolls get sprites
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_mountainshark_giantsharks }
 	}
 	cost_modifier = 0.5
@@ -1541,6 +1683,8 @@ merc_mountainshark_dragonsharks = {
 	home_province = 2863
 	sprites = { redscale_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_mountainshark_dragonsharks }
 	}
 	cost_modifier = 0.5
@@ -1561,6 +1705,8 @@ merc_raggedy_gun_knights = {
 	cavalry_weight = 1.0
 	home_province = 2854 #Cathfei
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		OR = {
 			tag = H61
 			was_tag = H61
@@ -1582,6 +1728,8 @@ merc_lords_of_platinum = {
 	cavalry_cap = 0
 	artillery_weight = 0
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_lords_of_platinum }
 		owns_core_province = 2868
 	}
@@ -1602,6 +1750,8 @@ merc_lords_of_platinum_improved = {
 	cavalry_cap = 0
 	artillery_weight = 0
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_lords_of_platinum_improved }
 		owns_core_province = 2868
 	}
@@ -1625,6 +1775,8 @@ merc_yidabs_vanguard = {
 	home_province = 4070 #Yidab's Nest
 	sprites = { cave_goblin_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_yidabs_vanguard }
 		has_country_flag = I98_yidab_merc
 	}
@@ -1646,6 +1798,8 @@ merc_mboala_war_dogs = {
 	cavalry_cap = 33
 	sprites = { vyzemby_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_mboala_war_dogs }
 	}
 	cost_modifier = 0.8
@@ -1662,6 +1816,8 @@ merc_paddleboard_knights = {
 	artillery_weight = 0.0
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			tag = G33
 			was_tag = G33
@@ -1683,6 +1839,8 @@ merc_haebiszyae_guard_cavalry = {
 	home_province = 2579 #Oremvand
 	sprites = { yodhanpir_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			tag = J70 #Oremvand
 			was_tag = J70
@@ -1706,6 +1864,8 @@ merc_royakottar_kattyva_elite_vangaurd = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2500 #Royakottar
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_royakottar_kattyva_elite_vangaurd }
 	}
 	regiments_per_development = 0.1
@@ -1732,6 +1892,8 @@ merc_G53_lawarund = {
 	artillery_weight = 0.1
 	sprites = { kheionai_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = {
 			area = donkalyn_area
 		}
@@ -1755,6 +1917,8 @@ merc_G53_hsamaz = {
 	artillery_weight = 0.3
 	sprites = { kheionai_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = {
 			area = donkalyn_area
 		}
@@ -1781,6 +1945,8 @@ merc_volisi_vara_redeemed_swordsmen = {
 	home_province = 6756
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_volisi_vara_redeemed_swordsmen }
 	}
 	cost_modifier = 0.75
@@ -1795,6 +1961,8 @@ merc_the_silverspite_company = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2551 #Kattisangamar
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_the_silverspite_company }
 	}
 	regiments_per_development = 0.1
@@ -1820,6 +1988,8 @@ merc_sarraka = {
 	max_size = 4
 	sprites = { zanite_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_sarraka }
 		owns_core_province = 591
 	}
@@ -1842,6 +2012,8 @@ merc_sarraka_two = {
 	min_size = 16
 	max_size = 16
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_sarraka_two }
 		owns_core_province = 591
 	}
@@ -1864,6 +2036,8 @@ merc_sarraka_three = {
 	min_size = 40
 	max_size = 40
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_sarraka_three }
 		owns_core_province = 591
 	}
@@ -1888,6 +2062,8 @@ merc_R61_pasindesh_scouts = {
 	artillery_weight = 0.1
 	sprites = { ghankedhen_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = pasiragha_flag_ravanars_plan
 	}
 	modifier = {
@@ -1907,6 +2083,8 @@ merc_daughters_of_akasik_elite = {
 	home_province = 402
 	sprites = { akasi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = improved_daughters_of_akasik
 	}
 	cost_modifier = 1
@@ -1923,6 +2101,8 @@ merc_larankarha_household_cavalry = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2487 #Urvand
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_larankarha_household_cavalry }
 	}
 	regiments_per_development = 0.05
@@ -1946,6 +2126,8 @@ merc_stone_army_tier_2 = {
 	home_province = 4914 #Gushibi
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_stone_army_tier_2
 	}
 	cost_modifier = 1
@@ -1967,6 +2149,8 @@ merc_rock_raiders = {
 	home_province = 4919 #Xuanbik
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_rock_raiders
 	}
 	cost_modifier = 1.5
@@ -1988,6 +2172,8 @@ merc_rock_raiders_tier_2 = {
 	home_province = 4919 #Xuanbik
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_rock_raiders_tier_2
 	}
 	cost_modifier = 1.5
@@ -2011,6 +2197,8 @@ merc_chrome_claws = {
 	home_province = 4925 #Jiantsiang
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_chrome_claws
 	}
 	cost_modifier = 1.25
@@ -2032,6 +2220,8 @@ merc_chrome_claws_tier_2 = {
 	home_province = 4925 #Jiantsiang
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_chrome_claws_tier_2
 	}
 	cost_modifier = 1.25
@@ -2053,6 +2243,8 @@ merc_dacite_dragons = {
 	home_province = 4901 #Hubao
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_dacite_dragons
 	}
 	cost_modifier = 1.75
@@ -2073,6 +2265,8 @@ merc_dacite_dragons_tier_2 = {
 	home_province = 4901 #Hubao
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_dacite_dragons_tier_2
 	}
 	cost_modifier = 1.75
@@ -2093,6 +2287,8 @@ merc_whetstones = {
 	home_province = 4839 #Zyugok
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_whetstones
 	}
 	cost_modifier = 1.25
@@ -2116,6 +2312,8 @@ merc_whetstones_tier_2 = {
 	home_province = 4839 #Zyugok
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_whetstones_tier_2
 	}
 	cost_modifier = 1.25
@@ -2137,6 +2335,8 @@ merc_marble_mounts = {
 	home_province = 4853 #Anjiang
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_marble_mounts
 	}
 	cost_modifier = 1.5
@@ -2158,6 +2358,8 @@ merc_marble_mounts_tier_2 = {
 	home_province = 4853 #Anjiang
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_marble_mounts_tier_2
 	}
 	cost_modifier = 1.5
@@ -2182,6 +2384,8 @@ merc_flying_pebbles = {
 	home_province = 4879 #Feiten
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_flying_pebbles
 	}
 	cost_modifier = 1.75
@@ -2203,6 +2407,8 @@ merc_flying_pebbles_tier_2 = {
 	home_province = 4879 #Feiten
 	sprites = { yan_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = gushuokguan_flying_pebbles_tier_2
 	}
 	cost_modifier = 1.75
@@ -2221,6 +2427,8 @@ merc_the_orcish_company = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2197 #Hidden Hills (Ozgarom's Spawn Point)
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_the_orcish_company }
 	}
 	regiments_per_development = 0.06
@@ -2239,6 +2447,8 @@ merc_shadowbound_ashama = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 5971 #Metat Tagokag
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_shadowbound_ashama }
 	}
 	regiments_per_development = 0.06
@@ -2262,6 +2472,8 @@ merc_ameion_kattyam_auxiliary = {
 	max_size = 20
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_ameion_kattyam_auxiliary }
 	}
 	cost_modifier = 1.5
@@ -2286,6 +2498,8 @@ merc_wyvernheart_burnblood_company_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_1
     }
 
@@ -2314,6 +2528,8 @@ merc_wyvernheart_burnblood_company_2_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_2
     }
 
@@ -2342,6 +2558,8 @@ merc_wyvernheart_burnblood_company_2_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_2
     }
 
@@ -2369,6 +2587,8 @@ merc_wyvernheart_burnblood_company_3_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_3
     }
 
@@ -2399,6 +2619,8 @@ merc_wyvernheart_burnblood_company_3_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_3
     }
 
@@ -2429,6 +2651,8 @@ merc_wyvernheart_burnblood_company_4_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_4
     }
 
@@ -2459,6 +2683,8 @@ merc_wyvernheart_burnblood_company_4_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_4
     }
 
@@ -2489,6 +2715,8 @@ merc_wyvernheart_burnblood_company_4_3 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_4
     }
 
@@ -2519,6 +2747,8 @@ merc_wyvernheart_burnblood_company_5_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_5
     }
 
@@ -2547,6 +2777,8 @@ merc_wyvernheart_burnblood_company_5_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_5
     }
 
@@ -2575,6 +2807,8 @@ merc_wyvernheart_burnblood_company_5_3 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_5
     }
 
@@ -2604,6 +2838,8 @@ merc_wyvernheart_burnblood_company_6_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_6
     }
 
@@ -2632,6 +2868,8 @@ merc_wyvernheart_burnblood_company_6_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_6
     }
 
@@ -2660,6 +2898,8 @@ merc_wyvernheart_burnblood_company_6_3 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_6
     }
 
@@ -2688,6 +2928,8 @@ merc_wyvernheart_burnblood_company_6_4 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = wyvernheart_burnblood_6
     }
 
@@ -2712,6 +2954,8 @@ merc_rhada_lifters = {
 	artillery_weight = 0
 	sprites = { africangfx_sprite_pack } #placeholder
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = S53_rhada_lifters_flag
 	}
 	cost_modifier = 0.85
@@ -2734,6 +2978,8 @@ merc_gnoll_buffalo_jumpers = {
 	artillery_weight = 0
 	sprites = { gnoll_sprite_pack } 
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = S53_gnoll_buffalo_jumpers_flag
 	}
 	cost_modifier = 1.33
@@ -2757,6 +3003,8 @@ merc_izenwez_league_players = {
 	home_province = 6606 #tritrias
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = S53_izenwez_league_players_flag
 	}
 	cost_modifier = 1.50
@@ -2781,6 +3029,8 @@ merc_ashhana_royal_guard = {
 	home_province = 5951
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_ashhana_royal_guard }
 	}
 	modifier = {
@@ -2796,6 +3046,8 @@ merc_mojobaa_warrior_monks = {
 	home_province = 5808
 	sprites = { binwarji_units_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_mojobaa_warrior_monks }
 	}
 	cost_modifier = 0.5
@@ -2816,6 +3068,8 @@ merc_chien_boarsofdinh = {
 	home_province = 4955 #Keoaden
 	sprites = { south_kai_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_chien_boarsofdinh }
 	}
 	cost_modifier = 0.5
@@ -2836,7 +3090,9 @@ merc_karakhanbari_grenadiers = {
 	artillery_weight = 0.2
 	counts_towards_force_limit = no
 	sprites = { karakhanbar_sprite_pack } 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		has_country_flag = karakhanbar_might_makes_right_effect_mercenary_idea_reward_flag 
 	} 
 	cost_modifier = 0.50 
@@ -2852,7 +3108,9 @@ merc_karakhanbari_elven_rangers = {
 	cavalry_cap = 0 
 	artillery_weight = 0 
 	sprites = { moon_elf_sprite_pack } 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		has_country_flag = karakhanbar_elven_mercenaries 
 	} 
 	cost_modifier = 0.75 
@@ -2872,6 +3130,8 @@ merc_wolfguard = {
 	artillery_weight = 0.5
 	sprites = { triunicgfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = I90_unlock_wolfguard
 	}
 	cost_modifier = 0.6
@@ -2887,6 +3147,8 @@ merc_lrm_city_guard = {
 	cavalry_cap = 0
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = LRM_city_guard
 		NOT = { capital_scope = { development = 30 } }
 	}
@@ -2903,6 +3165,8 @@ merc_lrm_city_guard_upgraded = {
 	cavalry_cap = 0
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = LRM_city_guard
 		capital_scope = {
 			development = 30
@@ -2920,7 +3184,9 @@ merc_uesrennu_armoured_kotakompus = {
 	cavalry_weight = 0
 	home_province = 2554
 	sprites = { yodhanpir_sprite_pack }
-    trigger = {	has_country_flag = armoured_kotakompus }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_country_flag = armoured_kotakompus }
 	cost_modifier = 1.1
 	modifier = {
 		shock_damage = 0.1
@@ -2937,7 +3203,9 @@ merc_children_of_the_thorns = {
 	cavalry_weight = 0.2
 	home_province = 33
 	sprites = { easterngfx_sprite_pack }
-    trigger = {			
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    			
 		has_unlocked_merc_company = { merc_company = merc_children_of_the_thorns }
 		owns_core_province = 33
 	}
@@ -2959,6 +3227,8 @@ merc_wineport_watchers = {
 	home_province = 101 # Wineport
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_wineport_watchers }
 		owns_core_province = 101
 	}
@@ -2979,6 +3249,8 @@ merc_foxalley_foxes = {
 	home_province = 81 # Foxalley
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_foxalley_foxes }
 		owns_core_province = 81
 	}
@@ -2997,6 +3269,8 @@ merc_wineport_seven_chalices = {
 	home_province = 101 #Wineport
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_wineport_seven_chalices }
 		owns_core_province = 101
 	}
@@ -3015,6 +3289,8 @@ merc_raj_foreign_legion = {
 	artillery_weight = 0.25
 	sprites = { rabhidarubsad_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_modifier = rahen_raj_mandate_vizier_1_vizier_senaptia_mod
 		overlord = { is_at_war = yes }
 	}
@@ -3037,6 +3313,8 @@ merc_ironwall = {
 	home_province = 740
 	sprites = { gray_orc_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		capital_scope = { continent = europe }
 		NOT = { is_or_was_tag = { tag = Z18 } }
 		has_global_flag = ironwall_enabled
@@ -3053,6 +3331,8 @@ merc_chaqway_flamingoes = {
 	cavalry_weight = 1
 	
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_estate_privilege = estate_mages_chaqway_flamingo
 	}
 
@@ -3074,6 +3354,8 @@ merc_zokka_rakshasa_devotees = {
 	home_province = 4384 #mindanan
 	sprites = { harimari_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_zokka_rakshasa_devotees }
 	}
 	cost_modifier = 1
@@ -3092,7 +3374,9 @@ merc_konol_hawk_legion = {
 	artillery_weight = 0.1
 	home_province = 496
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_konol_hawk_legion } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_konol_hawk_legion } }
 	cost_modifier = 1.1
 	modifier = {
 		discipline = 0.1
@@ -3107,7 +3391,9 @@ merc_konol_carrion_legion = {
 	artillery_weight = 0
 	home_province = 475
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_konol_carrion_legion } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_konol_carrion_legion } }
 	cost_modifier = 1.1
 	modifier = {
 		infantry_power = 0.2
@@ -3122,7 +3408,9 @@ merc_konol_sandstorm_legion = {
 	artillery_weight = 0
 	home_province = 3194
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_konol_sandstorm_legion } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_konol_sandstorm_legion } }
 	cost_modifier = 1.1
 	modifier = {
 		cavalry_power = 0.2
@@ -3138,7 +3426,9 @@ merc_konol_venom_legion = {
 	artillery_weight = 0.3
 	home_province = 463
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_konol_venom_legion } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_konol_venom_legion } }
 	cost_modifier = 1.1
 	modifier = {
 		fire_damage = 0.1
@@ -3153,7 +3443,9 @@ merc_konol_scourge_legion = {
 	artillery_weight = 0.1
 	home_province = 493
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_konol_scourge_legion } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_konol_scourge_legion } }
 	cost_modifier = 1.1
 	modifier = {
 		shock_damage = 0.1
@@ -3168,7 +3460,9 @@ merc_istralari_banshees_small_a = {
 	regiments_per_development = 0.03
 	cavalry_weight = 0
 	artillery_weight = 0
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_1
 		NOT = { has_country_flag = A45_banshee_ni_complete } 
 	}
@@ -3184,7 +3478,9 @@ merc_istralari_banshees_small_b = {
 	regiments_per_development = 0.03
 	cavalry_weight = 0
 	artillery_weight = 0
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_1
 		has_country_flag = A45_banshee_ni_complete  
 	}
@@ -3201,7 +3497,9 @@ merc_istralari_banshees_mid_a = {
 	regiments_per_development = 0.06
 	cavalry_weight = 0
 	artillery_weight = 0.2
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_2
 		NOT = { has_country_flag = A45_banshee_ni_complete } 
 	}
@@ -3220,7 +3518,9 @@ merc_istralari_banshees_mid_b = {
 	regiments_per_development = 0.06
 	cavalry_weight = 0
 	artillery_weight = 0.2
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_2
 		has_country_flag = A45_banshee_ni_complete  
 	}
@@ -3241,7 +3541,9 @@ merc_istralari_banshees_large_a = {
 	regiments_per_development = 0.09
 	cavalry_weight = 0
 	artillery_weight = 0.3
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_3
 		NOT = { has_country_flag = A45_banshee_ni_complete } 
 	}
@@ -3261,7 +3563,9 @@ merc_istralari_banshees_large_b = {
 	regiments_per_development = 0.09
 	cavalry_weight = 0
 	artillery_weight = 0.3
-    trigger = {	
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	
 		has_country_flag = A45_banshee_company_3
 		has_country_flag = A45_banshee_ni_complete  
 	}
@@ -3293,6 +3597,8 @@ merc_verne_exploration_team_1 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = verne_vernissage_expedition_teams_unlocked
 		hidden_trigger = {
 			ai = no
@@ -3323,6 +3629,8 @@ merc_verne_exploration_team_2 = {
     sprites = { easterngfx_sprite_pack }
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
         has_country_flag = verne_vernissage_expedition_teams_unlocked
 		hidden_trigger = {
 			ai = no
@@ -3344,6 +3652,8 @@ merc_parahechendi_scythed_chariots = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2550 #Parahechend
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_parahechendi_scythed_chariots }
 	}
 	regiments_per_development = 0.05
@@ -3363,6 +3673,8 @@ merc_ebeneshi_scythed_chariots = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2485 #Tirsi Ebenesh
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_ebeneshi_scythed_chariots }
 	}
 	regiments_per_development = 0.05
@@ -3382,6 +3694,8 @@ merc_kalavendi_scythed_chariots = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2550 #Parahechend
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_kalavendi_scythed_chariots }
 	}
 	regiments_per_development = 0.05
@@ -3401,6 +3715,8 @@ merc_larankarha_scythed_chariots = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2485 #Tirsi Ebenesh
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_larankarha_scythed_chariots }
 	}
 	regiments_per_development = 0.05
@@ -3424,6 +3740,8 @@ merc_adeen_hardliners = {
 	sprites = { ndurubu_units_pack }
 	artillery_weight = 0.5
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = rinta_adeen_hardliners_unlocked
 	}
 	max_size = 30 
@@ -3438,6 +3756,8 @@ merc_deranne_seaflower_knights = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 113 #Deranne
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		mission_completed = deranne_vengeance_of_tomorrow
 		NOT = { has_country_flag = deranne_disable_seaflowerknights }
 	}
@@ -3463,6 +3783,8 @@ merc_human_iyashlagila_1 = {
 	artillery_weight = 0.25
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_estate_privilege = estate_burghers_khair_families_iysashlagila_management
 		development_in_provinces = {
 			value = 250
@@ -3490,6 +3812,8 @@ merc_human_iyashlagila_2 = {
 	artillery_weight = 0.25
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_estate_privilege = estate_burghers_khair_families_iysashlagila_management
 		development_in_provinces = {
 			value = 500
@@ -3517,6 +3841,8 @@ merc_human_iyashlagila_3 = {
 	artillery_weight = 0.25
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_estate_privilege = estate_burghers_khair_families_iysashlagila_management
 		development_in_provinces = {
 			value = 750
@@ -3544,6 +3870,8 @@ merc_human_iyashlagila_4 = {
 	artillery_weight = 0.25
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_estate_privilege = estate_burghers_khair_families_iysashlagila_management
 		development_in_provinces = {
 			value = 1000
@@ -3575,7 +3903,9 @@ merc_angels_base = {
 	cavalry_weight = 0
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_angels_base }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_angels_base }
 	modifier = { reinforce_speed = 0.25 }
 	counts_towards_force_limit = no
 }
@@ -3587,7 +3917,9 @@ merc_angels_defense = {
 	cavalry_weight = 0
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_angels_defense }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_angels_defense }
 	modifier = {
 		reinforce_speed = 0.25
 		morale_damage_received = -0.15
@@ -3602,7 +3934,9 @@ merc_angels_defense_2 = {
 	cavalry_weight = 0
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_angels_defense_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_angels_defense_2 }
 	modifier = {
 		reinforce_speed = 0.25
 		morale_damage_received = -0.15
@@ -3618,7 +3952,9 @@ merc_angels_offense = {
 	cavalry_weight = 0
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_angels_offense }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_angels_offense }
 	modifier = {
 		reinforce_speed = 0.25
 		infantry_power = 0.25
@@ -3633,7 +3969,9 @@ merc_angels_offense_2 = {
 	cavalry_weight = 0
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_angels_offense_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_angels_offense_2 }
 	modifier = {
 		reinforce_speed = 0.25
 		infantry_power = 0.25
@@ -3649,7 +3987,9 @@ merc_eldritch_base = {
 	cavalry_weight = 1
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_eldritch_base }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_eldritch_base }
 	modifier = {
 		cav_to_inf_ratio = 1
 		reinforce_speed = 0.25
@@ -3664,7 +4004,9 @@ merc_eldritch_fast = {
 	cavalry_weight = 1
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_eldritch_fast }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_eldritch_fast }
 	modifier = {
 		cav_to_inf_ratio = 1
 		reinforce_speed = 0.25
@@ -3680,7 +4022,9 @@ merc_eldritch_fast_2 = {
 	cavalry_weight = 1
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_eldritch_fast_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_eldritch_fast_2 }
 	modifier = {
 		cav_to_inf_ratio = 1
 		reinforce_speed = 0.25
@@ -3698,7 +4042,9 @@ merc_eldritch_mass = {
 	cavalry_weight = 1
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_eldritch_mass }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_eldritch_mass }
 	modifier = {
 		cav_to_inf_ratio = 1
 		cavalry_power = 0.1
@@ -3714,7 +4060,9 @@ merc_eldritch_mass_2 = {
 	cavalry_weight = 1
 	artillery_weight = 0
 
-	trigger = { has_country_flag = summon_extraplanars_eldritch_mass_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_eldritch_mass_2 }
 	modifier = {
 		cav_to_inf_ratio = 1
 		cavalry_power = 0.1
@@ -3730,7 +4078,9 @@ merc_devils_base = {
 	cost_modifier = 0.01
 	cavalry_weight = 0
 	artillery_weight = 1
-	trigger = { has_country_flag = summon_extraplanars_devils_base }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_devils_base }
 	counts_towards_force_limit = no
 }
 merc_devils_frontline = {
@@ -3740,7 +4090,9 @@ merc_devils_frontline = {
 	cost_modifier = 0.01
 	cavalry_weight = 0
 	artillery_weight = 1
-	trigger = { has_country_flag = summon_extraplanars_devils_frontline }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_devils_frontline }
 	modifier = { artillery_shock = 0.5 }
 	counts_towards_force_limit = no
 }
@@ -3751,7 +4103,9 @@ merc_devils_frontline_2 = {
 	cost_modifier = 0.01
 	cavalry_weight = 0
 	artillery_weight = 1
-	trigger = { has_country_flag = summon_extraplanars_devils_frontline_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_devils_frontline_2 }
 	modifier = {
 		artillery_shock = 0.5
 		land_morale = 0.25
@@ -3765,7 +4119,9 @@ merc_devils_backline = {
 	cost_modifier = 0.01
 	cavalry_weight = 0
 	artillery_weight = 1
-	trigger = { has_country_flag = summon_extraplanars_devils_backline }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_devils_backline }
 	modifier = { backrow_artillery_damage = 0.1 }
 	counts_towards_force_limit = no
 }
@@ -3776,7 +4132,9 @@ merc_devils_backline_2 = {
 	cost_modifier = 0.01
 	cavalry_weight = 0
 	artillery_weight = 1
-	trigger = { has_country_flag = summon_extraplanars_devils_backline_2 }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_flag = summon_extraplanars_devils_backline_2 }
 	modifier = {
 		backrow_artillery_damage = 0.1
 		fire_damage = 0.15
@@ -3793,6 +4151,8 @@ merc_children_of_the_vanguard = {
 	home_province = 5415 #Hogunuug
 	sprites = { asiangfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		5415 = {
 			owned_by = ROOT
 			has_province_modifier = the_northern_bastion_upgrade
@@ -3815,6 +4175,8 @@ merc_bibyobi_monster_hunters = {
 	sprites = { vyzemby_units_pack }
 	cavalry_weight = 0
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_bibyobi_monster_hunters }
 	}
 	modifier = {
@@ -3829,6 +4191,8 @@ merc_bibyobi_wereleopards = {
 	sprites = { vyzemby_units_pack }
 	cavalry_weight = 0
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_bibyobi_wereleopards }
 	}
 	modifier = {
@@ -3845,6 +4209,8 @@ merc_bibyobi_ninki_nanka = {
 	sprites = { vyzemby_units_pack }
 	cavalry_weight = 1
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_bibyobi_ninki_nanka }
 	}
 	modifier = {
@@ -3865,6 +4231,8 @@ merc_beikling_hill_raiders = { #Hill Raiders
 	home_province = 4852 #Tiaochi
 	sprites = { yan_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_beikling_hill_raiders }
 		NOT = { has_unlocked_merc_company = { merc_company = merc_beikling_royal_host } }
 	}
@@ -3884,6 +4252,8 @@ merc_beikling_royal_host = { #Royal Host
 	home_province = 4844 #Emgolu
 	sprites = { yan_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_beikling_royal_host }
 	}
 	cost_modifier = 0.5
@@ -3898,6 +4268,8 @@ merc_wild_magic_casters = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 2388 #Cara Lafquen
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_wild_magic_casters }
 	}
 	regiments_per_development = 0.05
@@ -3917,6 +4289,8 @@ merc_campurana_corintar = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 6559 #Kottar Orenkoraim
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_campurana_corintar }
 	}
 	regiments_per_development = 0.05
@@ -3937,6 +4311,8 @@ merc_campurana_hotzaya = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 1048 #Valorpoint
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_unlocked_merc_company = { merc_company = merc_campurana_hotzaya }
 	}
 	regiments_per_development = 0.05
@@ -3961,6 +4337,8 @@ merc_ostavranan = {
 	artillery_weight = 0
 	sprites = { green_orc_sprite_pack } 
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		has_country_flag = B27_merc
 	}
 	cost_modifier = 0.5
@@ -3984,6 +4362,8 @@ merc_lelanan_daughters_of_lel = {
 	cavalry_cap = 2
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_lelanan_daughters_of_lel }
 		NOT = { 
 			OR = {
@@ -4014,6 +4394,8 @@ merc_lelanan_daughters_of_lel_upgraded_1 = {
 	cavalry_cap = 2
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_lelanan_daughters_of_lel_upgraded_1 }
 		NOT = { has_unlocked_merc_company = { merc_company = merc_lelanan_daughters_of_lel_upgraded_2 } }
 	}
@@ -4039,6 +4421,8 @@ merc_lelanan_daughters_of_lel_upgraded_2 = {
 	cavalry_cap = 2
 
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_unlocked_merc_company = { merc_company = merc_lelanan_daughters_of_lel_upgraded_2 }
 	}
 
@@ -4066,7 +4450,9 @@ merc_emperors_flame = {
 	cavalry_cap = 4
 	artillery_weight = 0.2
 	sprites = { gnoll_sprite_pack }
-    trigger = {	has_unlocked_merc_company = { merc_company = merc_emperors_flame } }
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    	has_unlocked_merc_company = { merc_company = merc_emperors_flame } }
 	cost_modifier = 0.7
 	modifier = {
 		allow_mercenary_drill = yes

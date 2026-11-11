@@ -1631,7 +1631,7 @@ rinta_adeen_at_war_buff = {
 	global_tax_income = 24
 }
 rinta_path_ongoing = {
-	can_not_declare_war = yes
+	#can_not_declare_war = yes #BomjsBagetom Anbennar Submod
 }
 rinta_path_rp = {
 	local_production_efficiency = 0.33

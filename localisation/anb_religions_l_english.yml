@@ -1622,8 +1622,9 @@
     lel_ascendant:0 "Lel, Ascendant"
     lel_ascendant_desc:0 "Lel! Great matriarch of our family! So strong is your soothing love that you once tamed the flame burning in Turozi’s heart. Mistress of the waves, nourishing mother, we sing your praises above all others! \n\n§TOwning the Shrine in §YLelanàn§! will grant us§!\nImprove relations: §G+7.5%§!"    
     kolo:0 "Kolo"
-    kolo_desc:0 "Kolo! Father of wealth, lord of plenty! We praise your name as stones are laid and crops are sown. We feel your presence above all others in the very soil beneath our feet, husband of Lel, backbone of our family!\n\n§TOwning the Shrine in §YKunolo (Kolonoma)§! will grant us§!\nCavalry Combat Ability: §G+5%§!"
-    the_nakazy:0 "Nakazy"
+    #kolo_desc:0 "Kolo! Father of wealth, lord of plenty! We praise your name as stones are laid and crops are sown. We feel your presence above all others in the very soil beneath our feet, husband of Lel, backbone of our family!\n\n§TOwning the Shrine in §YKunolo (Kolonoma)§! will grant us§!\nCavalry Combat Ability: §G+5%§!" #BomjsBagetom Anbennar Submod
+    kolo_desc:0 "Kolo! Father of wealth, lord of plenty! We praise your name as stones are laid and crops are sown. We feel your presence above all others in the very soil beneath our feet, husband of Lel, backbone of our family!\n\n§TOwning the Shrine in §YKunolo (Kolonoma)§! will grant us§!\nCavalry Combat Ability: §G+15%§!" #BomjsBagetom Anbennar Submod
+   the_nakazy:0 "Nakazy"
     the_nakazy_desc:0 "Nakazy! The wings upon which our weary souls come to rest! Daughters of Lel and Kolo, winds that shake the trees, singing birds and colorful feathers, we call upon your wisdom!\n\n§TOwning the Shrine in §YLelajik§! will grant us§!\nStability Cost Modifier: §G-10%§!"
     turozi:0 "Turozi"
     turozi_desc:0 "Turozi! Flame of war, spirit of vengeance! Hotheaded lover of Lel and brother to Kolo, no battle is beyond your reach. We call upon your ferocity and passion to embolden us to protect our family!\n\n§TOwning the Shrine in §YOfavi§! will grant us§!\nPrestige from Land Battles: §G+100%§!"

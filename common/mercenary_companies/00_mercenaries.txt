@@ -5,6 +5,8 @@ merc_greentide_early_arquebusiers = {
     cost_modifier = 0.8
 	sprites = { dlc103_sav_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			NOT = { has_country_modifier = monstrous_nation }
 			has_country_flag = B42_mercenary_access
@@ -31,6 +33,8 @@ merc_lilac_wars_veterans = {
     cost_modifier = 0.9
 	sprites = { westerngfx_sprite_pack  }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -57,6 +61,8 @@ merc_roilsardi_company = {
     home_province = 59
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -89,6 +95,8 @@ merc_saloren_swordmasters = {
     home_province = 32
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -121,6 +129,8 @@ merc_vivinmar_cavaliers = {
     home_province = 40
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -159,6 +169,8 @@ merc_enteben_free_riders = {
 	cost_modifier = 1.1
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -189,6 +201,8 @@ merc_shorthelms = {
     home_province = 7 #Hardoaks
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -219,7 +233,9 @@ merc_small_company = {
 	artillery_weight = 0.1
     home_province = 159
 	sprites = { westerngfx_sprite_pack }
-    trigger = { 
+    trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+     
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -252,6 +268,8 @@ merc_chipped_tooth_company = {
 	home_province = 8
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -300,6 +318,8 @@ merc_havoral_band = {
 	home_province = 909
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -329,6 +349,8 @@ merc_menibor_free_company = {
 	home_province = 569
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -359,6 +381,8 @@ merc_pinklady_band = {
 	home_province = 280
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -379,6 +403,8 @@ merc_dwarven_cartel_mercenaries = {
 	home_province = 308
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -416,6 +442,8 @@ merc_the_crestless = {
 	home_province = 311
 	sprites = { westerngfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -453,6 +481,8 @@ merc_wexonard_greatswords = {
 	home_province = 306
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -492,6 +522,8 @@ merc_bardswood_hunter_company = {
 	home_province = 918
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -532,6 +564,8 @@ merc_vernmen_adventurers = {
 	home_province = 286
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -566,6 +600,8 @@ merc_rectorates_finest = {
 	cavalry_cap = 10
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		tag = A77
 		has_country_flag = call_of_god
 	}
@@ -581,6 +617,8 @@ merc_moonspears = {
 	home_province = 53
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -619,6 +657,8 @@ merc_moonspear_rifle_corps = {
 	home_province = 56
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -661,6 +701,8 @@ merc_arbaran_free_company = {
 	home_province = 349
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -690,6 +732,8 @@ merc_independent_bladedancers = {
 	home_province = 352
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -734,6 +778,8 @@ merc_moorlords = {
 	home_province = 196
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -770,6 +816,8 @@ merc_company_of_the_alen = {
 	home_province = 337
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -803,6 +851,8 @@ merc_old_alenic_woodsmen = {
 	home_province = 241
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -844,6 +894,8 @@ merc_free_reavers = {
 	cavalry_cap = 2
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -878,6 +930,8 @@ merc_olavish_band = {
 	cavalry_cap = 2
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -908,6 +962,8 @@ merc_obrtrol_ice_shamans = {
 	home_province = 995
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_flag = obrtrol_merc_unlock_0
 	}
 	cost_modifier = 1.5
@@ -933,6 +989,8 @@ merc_castonath_adventurers = {
 	cavalry_cap = 3
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -965,6 +1023,8 @@ merc_rohibon_free_lances = {
 	home_province = 769
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1001,6 +1061,8 @@ merc_company_of_the_dragon = {
 	home_province = 831
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1037,6 +1099,8 @@ merc_catelsvord_cannon_company = {
 	home_province = 799
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1076,6 +1140,8 @@ merc_asra_cartel_mercenaries = {
 	home_province = 2863
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1108,6 +1174,8 @@ merc_exiled_rangers = {
 	home_province = 3054
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1135,6 +1203,8 @@ merc_gladewardens = {
 	home_province = 3053
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1166,6 +1236,8 @@ merc_ultankatug = {
 	home_province = 860
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -1200,6 +1272,8 @@ merc_company_of_the_crag = {
 	home_province = 379
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1237,6 +1311,8 @@ merc_phoenix_legion_veterans = {
 	home_province = 625
 	sprites = { sun_elf_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1273,6 +1349,8 @@ merc_brasanni_freemen = {
 	home_province = 565
 	sprites = { brasanni_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1303,6 +1381,8 @@ merc_shining_shields = {
 	home_province = 601
 	sprites = { zanite_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1337,6 +1417,8 @@ merc_seg_band = {
 	home_province = 4124
 	sprites = { group_dwarves_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1380,6 +1462,8 @@ merc_kumarkandi_rangers_one = {
 	home_province = 591
 	sprites = { zanite_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1408,6 +1492,8 @@ merc_kumarkandi_rangers_two = {
 	home_province = 591
 	sprites = { zanite_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1429,6 +1515,8 @@ merc_kumarkandi_rangers_three = {
 	home_province = 591
 	sprites = { zanite_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1447,6 +1535,8 @@ merc_harpy_mercenaries = {
 	home_province = 666
 	sprites = { harpy_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -1477,6 +1567,8 @@ merc_siadan_riflebirds = {
 	home_province = 2904
 	sprites = { harpy_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -1515,6 +1607,8 @@ merc_gnollish_mercenaries = {
 	home_province = 597
 	sprites = { gnoll_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -1541,6 +1635,8 @@ merc_independent_krah = {
 	home_province = 583
 	sprites = { gnoll_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -1572,6 +1668,8 @@ merc_landless_knights = {
 	home_province = 2810
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1601,6 +1699,8 @@ merc_cursed_one_mercenaries = {
 	home_province = 1197
 	sprites = { gray_orc_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -1629,6 +1729,8 @@ merc_malacnar_battleguards = {
 	home_province = 1169
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = {
 			G32 = {
@@ -1656,6 +1758,8 @@ merc_auvukonyr = {
 	home_province = 1830
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		OR = {
 			capital_scope = { 
@@ -1681,6 +1785,8 @@ merc_harafe_mercenaries = {
 	home_province = 2112
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			colonial_haraf = { owned_by = ROOT }
@@ -1700,6 +1806,8 @@ merc_boek_braves = {
 	home_province = 1873
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			colonial_noruin = { owned_by = ROOT }
@@ -1722,6 +1830,8 @@ merc_independent_gun_brigades = {
 	home_province = 2500
 	sprites = { anbennar_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1757,6 +1867,8 @@ merc_larankar_free_sabres = {
 	home_province = 2487
 	sprites = { larankar_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1790,6 +1902,8 @@ merc_oremvandian_free_riders = {
 	home_province = 2579
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1824,6 +1938,8 @@ merc_boar_warriors = {
 	home_province = 2785
 	sprites = { southamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1856,6 +1972,8 @@ merc_kherkan_guard = {
 	home_province = 2773
 	sprites = { kheionai_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1881,6 +1999,8 @@ merc_melnari_pikemen = {
 	home_province = 2763
 	sprites = { kheionai_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -1908,6 +2028,8 @@ merc_gateguards = { #Eordellon - Domandrod gateguards
 	home_province = 2042
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 
 		OR = {
@@ -1929,6 +2051,8 @@ merc_dorcurt_blademasters = { #veterans of dorcurt swearing to reclaim the autum
 	home_province = 2014
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 
 		OR = {
@@ -1951,6 +2075,8 @@ merc_fireblossom_alchemical_division = { #field testing for alchemical experimen
 	home_province = 2008
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 
 		OR = {
@@ -1971,6 +2097,8 @@ merc_sarmadfar_sailors = { #no lack of caamasi sailors looking for jobs
 	home_province = 2053
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 
 		OR = {
@@ -1992,6 +2120,8 @@ merc_burning_ice_hunters = { #guerilla fighters, revenge against Hibernal Crusad
 	home_province = 1985
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 
 		OR = {
@@ -2014,6 +2144,8 @@ merc_cult_of_rot = { #heretical autumn court cult, will fight for anyone but the
 	home_province = 1969
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 		NOT = { religion = winter_court }
 		NOT = { mission_completed = H14_autumn_unified }
@@ -2033,6 +2165,8 @@ merc_cupric_bastion = { #heavily armored tuathak legion
 	home_province = 1118
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 	}
 	
@@ -2051,6 +2185,8 @@ merc_drisleak_wilders = { #crazed arsonists, spiteful from losing their signific
 	home_province = 2033
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 		NOT = {
 			tag = H08
@@ -2069,6 +2205,8 @@ merc_merchant_lords = { #sarmadfar pirates
 	home_province = 2053
 	sprites = { moon_elf_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 	}
 	
@@ -2086,6 +2224,8 @@ merc_egasach_tribesmen = { #desert
 	home_province = 2046
 	sprites = { southamericagfx_sprite_pack }
 	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	
 		any_owned_province = { superregion = eordand_superregion }
 	}
 	
@@ -2104,6 +2244,8 @@ merc_volisi_vara_bandit_swordsmen = {
 	home_province = 6756
 	sprites = { yodhanpir_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = {
 			has_country_flag = unlocked_merc_volisi_vara_redeemed_swordsmen
@@ -2143,6 +2285,8 @@ merc_darkalyndar_far_riders = {
 	home_province = 2558
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -2182,6 +2326,8 @@ merc_the_orphaned_brotherhood = {
 	home_province = 2527
 	sprites = { yodhanpir_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		NOT = { religion = kheionism }
 		NOT = { culture_group = kheionai_ruinborn_elf }
@@ -2217,6 +2363,8 @@ merc_varaendi_war_kotakompu = {
 	home_province = 2554
 	sprites = { yodhanpir_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = {
 			has_country_modifier = monstrous_nation
 			has_country_flag = armoured_kotakompus
@@ -2255,6 +2403,8 @@ merc_company_of_the_golden_scythes = {
 	home_province = 2510
 	sprites = { taychend_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -2293,6 +2443,8 @@ merc_dugui_hi_longwalkers = {
 	home_province = 2466
 	sprites = { northamericagfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation }
 		OR = {
 			capital_scope = {
@@ -2331,6 +2483,8 @@ merc_dishiks_many = {
 	home_province = 4059
 	sprites = { cave_goblin_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_modifier = monstrous_nation
 		OR = {
 			capital_scope = { 
@@ -2355,6 +2509,8 @@ merc_mit_mits_might = {
 	home_province = 4271
 	sprites = { cave_goblin_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		has_country_modifier = monstrous_nation
 		OR = {
 			capital_scope = { 
@@ -2381,6 +2537,8 @@ merc_batallion_of_the_beard = {
 	home_province = 2931
 	sprites = { westerngfx_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2413,6 +2571,8 @@ merc_amber_company = {
 	home_province = 4247
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2445,6 +2605,8 @@ merc_whiteforge_vanguard = {
 	home_province = 4093
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2481,6 +2643,8 @@ merc_shadow_warriors = {
 	home_province = 4386
 	sprites = { harimari_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2505,6 +2669,8 @@ merc_company_of_the_stripe = {
 	home_province = 4391
 	sprites = { harimari_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2533,6 +2699,8 @@ merc_ghankedhen_rangers = {
 	home_province = 4444
 	sprites = { ghankedhen_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2558,6 +2726,8 @@ merc_gangs_of_sarisung = {
 	home_province = 4500
 	sprites = { muthadhaya_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2581,6 +2751,8 @@ merc_battlebrew_slayers = {
 	home_province = 4397
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2606,6 +2778,8 @@ merc_exilarch_shields = {
 	home_province = 4435
 	sprites = { group_dwarves_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2634,6 +2808,8 @@ merc_lunthari_irregulars = {
 	home_province = 4423
 	sprites = { rabhidarubsad_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2658,6 +2834,8 @@ merc_yodhiyari_bands = {
 	home_province = 4501
 	sprites = { rasarhid_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { has_country_modifier = monstrous_nation}
 		NOT = { culture_group = centaur }
 		NOT = { has_country_modifier = centaur_military }
@@ -2682,6 +2860,8 @@ merc_destined_victors = {
     home_province = 6157
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2706,6 +2886,8 @@ merc_legends_of_mokai = {
     home_province = 6872
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2735,6 +2917,8 @@ merc_big_jolly_crew = {
     home_province = 6176
 	sprites = { ogre_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2765,6 +2949,8 @@ merc_redsalt_guards = {
     home_province = 6904
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2787,6 +2973,8 @@ merc_lapahtol_merchant_guard = {
     home_province = 6919
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -2813,6 +3001,8 @@ merc_drowning_sailors = {
     home_province = 6164
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2837,6 +3027,8 @@ merc_guardians_of_perpetual_peace = {
     home_province = 3692
 	sprites = { utubodi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				superregion = kanolowele_superregion
@@ -2862,6 +3054,8 @@ merc_kamgoro_trophy_hunters = {
     home_province = 3668
 	sprites = { utubodi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -2890,6 +3084,8 @@ merc_sirimadsik_exploratory_force = {
     home_province = 3680
 	sprites = { utubodi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -2922,6 +3118,8 @@ merc_plateau_misfits = {
     home_province = 3705
 	sprites = { utubodi_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				region = great_plateau_region
@@ -2946,6 +3144,8 @@ merc_lowland_passage_patrol = {
     home_province = 6474
 	sprites = { redscale_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -2977,6 +3177,8 @@ merc_scrawlwall_carriers = {
     home_province = 6380
 	sprites = { redscale_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -3010,6 +3212,8 @@ merc_titanbreaker_elites = {
     home_province = 6455
 	sprites = { redscale_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = { 
 				OR = {
@@ -3043,6 +3247,8 @@ merc_purapuraxasqa_remnants = {
     home_province = 6425
 	sprites = { redscale_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		NOT = { exists = P33 }
 		OR = {
 			capital_scope = { 
@@ -3074,6 +3280,8 @@ merc_mangrove_guerrillas = {
     home_province = 6961
 	sprites = { kanolowele_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3107,6 +3315,8 @@ merc_wildfire_revelers = {
     home_province = 3539
 	sprites = { yenbenmirra_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3131,6 +3341,8 @@ merc_the_company_and_the_herd = {
     home_province = 6944
 	sprites = { yenbenmirra_units_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3158,6 +3370,8 @@ merc_shadehidden_band = {
     home_province = 3157
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3189,6 +3403,8 @@ merc_canopy_bridgers = {
     home_province = 3347
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3221,6 +3437,8 @@ merc_grass_cutters = {
     home_province = 3451
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		OR = {
 			capital_scope = {
 				OR = {
@@ -3251,6 +3469,8 @@ merc_reefsworn_party = {
     home_province = 6895
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		is_year = 1500
 		OR = {
 			capital_scope = {
@@ -3280,6 +3500,8 @@ merc_reborn_steel = {
     home_province = 3693
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		is_year = 1500
 		OR = {
 			capital_scope = {
@@ -3308,6 +3530,8 @@ merc_springspec_warriors = {
     home_province = 6355
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		is_year = 1500
 		OR = {
 			capital_scope = {
@@ -3341,6 +3565,8 @@ merc_honored_fire_children = {
     home_province = 6988
 	sprites = { mechanim_sprite_pack }
     trigger = {
+        NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+    
 		is_year = 1500
 		OR = {
 			capital_scope = {
@@ -3376,7 +3602,9 @@ merc_feral_animals = {
 	artillery_weight = 0
 	max_size = 20
 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		OR = {
 			has_country_modifier = conjuration_1_summon_animals_mod 
 			has_country_modifier = conjuration_1_summon_animals_xhazobkult_mod
@@ -3399,7 +3627,9 @@ merc_elemental_animals = {
 	artillery_weight = 0
 	max_size = 20
 
-	trigger = {	has_country_modifier = conjuration_1_summon_elemental_animals_mod }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+		has_country_modifier = conjuration_1_summon_elemental_animals_mod }
 
 	modifier = {
 		discipline = -0.1
@@ -3419,7 +3649,9 @@ merc_leashed_elementals = {
 	artillery_weight = 0
 	min_size = 10
 
-	trigger = { 
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 
 		OR = {
 			has_country_modifier = conjuration_2_summon_elementals_mod
 			has_country_modifier = conjuration_2_summon_elementals_xhazobkult_mod
@@ -3444,7 +3676,9 @@ merc_greater_leashed_elementals = {
 	artillery_weight = 0
 	min_size = 10
 
-	trigger = { has_country_modifier = conjuration_2_greater_summon_elementals_mod }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_modifier = conjuration_2_greater_summon_elementals_mod }
 
 	modifier = {
 		#fire_damage_received = -0.2	#BomjSBagetom Anbennar Submod	GREAT RECEIVED WAR
@@ -3465,7 +3699,9 @@ merc_spiritfire_elementals = {
 	artillery_weight = 0
 	min_size = 10
 
-	trigger = { has_country_modifier = conjuration_2_summon_spiritfire_elementals_mod }
+	trigger = {
+	    NOT = { has_country_modifier = spirit_military } #BomjsBagetom Anbennar Submod
+	 has_country_modifier = conjuration_2_summon_spiritfire_elementals_mod }
 
 	modifier = {
 		#fire_damage_received = -0.2	#BomjSBagetom Anbennar Submod	GREAT RECEIVED WAR

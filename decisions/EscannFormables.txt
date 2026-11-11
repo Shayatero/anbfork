@@ -581,7 +581,7 @@ country_decisions = {
 		potential = {
 			has_reform = adventurer_reform #BomjSBagetom Anbennar Submod
 			capital_scope = {
-				region = west_castanor_region
+				region = west_castanor_region	
 			}
 			OR = { 
 				culture_group = escanni

@@ -6531,28 +6531,12 @@ country_event = { #Sir revolt starts
 			if = { #BomjSBagetom Anbennar Submod
 				limit = { has_country_flag = command_sir_revolt_khadisrapur_participation }
 				R11 = {
-					define_general = {
-						fire = 2
-						shock = 8
-						manuever = 1
-						siege = 4
-						female = yes
-						name = "Chiyi Kwaeng"
-						trait = war_wizard_personality
-					}
+					define_war_wizard = { name = "Chiyi Kwaeng" level = 2 female = no}
 				}
 			}
 			else = {  #BomjSBagetom Anbennar Submod
 				R78 = {
-					define_general = {
-						fire = 2
-						shock = 8
-						manuever = 1
-						siege = 4
-						female = yes
-						name = "Chiyi Kwaeng"
-						trait = war_wizard_personality
-					}
+					define_war_wizard = { name = "Chiyi Kwaeng" level = 2 female = no}
 				}
 			}	
 		}

@@ -683,6 +683,7 @@ country_decisions = {
 			change_tag = B96
 			hidden_effect = { restore_country_name = yes }
 			#swap_non_generic_missions = yes #for later lol
+			swap_non_generic_missions = yes #BomjsBagetom Anbennar Submod
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

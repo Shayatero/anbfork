@@ -631,7 +631,11 @@ dwarovar_assembly_of_holds_reform = {
 	icon = "assembly_hall"
 	allow_normal_conversion = yes
 	potential = {
-		culture_group = dwarven
+		OR = {	#BomjsBagetom Anbennar Submod
+			culture_group = dwarven
+			culture_group = goblin
+			culture_group = koblod
+		}	#BomjsBagetom Anbennar Submod
 		capital_scope = { continent = serpentspine }
 		NOT = {
 			has_reform = amlharaz_reform

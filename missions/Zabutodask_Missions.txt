@@ -1267,7 +1267,8 @@ J53_4 = {
 				estate_influence = { estate = estate_cossacks influence = 40 }
 			}
 			else = { any_owned_province = { has_terrain = steppe } }
-			reform_level = 3
+			#reform_level = 3 #BomjsBagetom Anbennar Submod
+			reform_level = 2 #BomjsBagetom Anbennar Submod
 			government_reform_progress = 50
 			is_subject = no
 		}
